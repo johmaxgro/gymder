@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <GoogleMaps/GoogleMaps.h>
+#import "Reachability.h"
+@import Quickblox;
+
 
 @interface AppDelegate ()
 
@@ -17,7 +22,48 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [QBSettings setApplicationID:39230];
+    [QBSettings setAuthKey:@"fZmnRvUk5aO5dM2"];
+    [QBSettings setAuthSecret:@"whR8FMMV6sJ4Ds7"];
+    [QBSettings setAccountKey:@"rzs9kKpPPK7VGc8uPz4w"];
+    
+    // Google Maps API initialization
+    [GMSServices provideAPIKey:@"AIzaSyDqnzeWLXo4gvXqhrlLTXA6uFTBc9cxA2A"];
+    
+    // Initialize Reachability
+    Reachability *reachability = [Reachability reachabilityForInternetConnection];
+    
+    // Start Monitoring
+    [reachability startNotifier];
+    
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                          openURL:url
+                                                sourceApplication:sourceApplication
+                                                       annotation:annotation
+            ];
+    FBSDKAccessToken *token = [FBSDKAccessToken currentAccessToken];
+
+        // Quickblox Facebbook Login
+        [QBRequest logInWithSocialProvider:@"facebook" accessToken:token.tokenString accessTokenSecret:nil successBlock:^(QBResponse *response, QBUUser *user) {
+            // Login succeded
+            NSLog(@"Successfully logged in via Facebook");
+            
+        } errorBlock:^(QBResponse *response) {
+            // Handle error
+        }];
+        
+
+    
+ 
+
+    
+    
+    return handled;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -32,14 +78,27 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    if([QBSession currentSession] != nil){
+        QBUUser *currentUser = [QBSession currentSession].currentUser;
+        currentUser.password = [QBSession currentSession].sessionDetails.token;
+        [[QBChat instance] connectWithUser:[QBSession currentSession].currentUser  completion:^(NSError * _Nullable error) {
+            
+        }];
+    }
+
 }
+
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBSDKAppEvents activateApp];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [[QBChat instance] disconnectWithCompletionBlock:^(NSError * _Nullable error) {
+        
+    }];
 }
 
 @end

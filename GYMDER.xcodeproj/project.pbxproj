@@ -7,14 +7,173 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4009D0421D1306DF0081ED1C /* LOCATION NEEDLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0411D1306DF0081ED1C /* LOCATION NEEDLE.png */; };
+		4009D0441D1406B50081ED1C /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0431D1406B50081ED1C /* Camera.storyboard */; };
+		4009D0461D140D420081ED1C /* CAMERA ACTIVE AREA.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0451D140D420081ED1C /* CAMERA ACTIVE AREA.png */; };
+		4009D0481D140E2B0081ED1C /* CAMERA-CIRCLE GREY.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0471D140E2B0081ED1C /* CAMERA-CIRCLE GREY.png */; };
+		4009D04B1D140F130081ED1C /* ShootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D04A1D140F130081ED1C /* ShootViewController.m */; };
+		4009D04D1D140FBC0081ED1C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4009D04C1D140FBC0081ED1C /* AVFoundation.framework */; };
+		4009D0511D155A7C0081ED1C /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D0501D155A7C0081ED1C /* Colors.m */; };
+		4009D0541D1567AA0081ED1C /* MENU BUTTON.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0531D1567AA0081ED1C /* MENU BUTTON.png */; };
+		4009D05A1D156DEF0081ED1C /* LOCATION NEEDLE BIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0591D156DEF0081ED1C /* LOCATION NEEDLE BIG.png */; };
+		4009D05C1D157A510081ED1C /* ROTATE CAMERA BUTTON.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D05B1D157A510081ED1C /* ROTATE CAMERA BUTTON.png */; };
+		4009D05F1D157CD40081ED1C /* PhotofilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D05E1D157CD40081ED1C /* PhotofilterViewController.m */; };
+		4009D0621D1592BF0081ED1C /* ProfileSexyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D0611D1592BF0081ED1C /* ProfileSexyViewController.m */; };
+		4009D0661D159D470081ED1C /* PROFILE CHAT GREY.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0631D159D470081ED1C /* PROFILE CHAT GREY.png */; };
+		4009D0671D159D470081ED1C /* PROFILE FOLLOW GREY.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0641D159D470081ED1C /* PROFILE FOLLOW GREY.png */; };
+		4009D0681D159D470081ED1C /* PROFILE POW GREY.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0651D159D470081ED1C /* PROFILE POW GREY.png */; };
+		4009D06A1D15A4590081ED1C /* PROFILE SETTINGS.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0691D15A4590081ED1C /* PROFILE SETTINGS.png */; };
+		4009D06C1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D06B1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png */; };
+		4009D06E1D16C03B0081ED1C /* FACEBOOK ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D06D1D16C03B0081ED1C /* FACEBOOK ICON.png */; };
+		4009D0701D16C0470081ED1C /* FACEBOOK SELECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D06F1D16C0470081ED1C /* FACEBOOK SELECTED.png */; };
+		4009D0731D16E4DC0081ED1C /* Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D0721D16E4DC0081ED1C /* Filters.m */; };
+		4009D0761D16EBA80081ED1C /* BEAST-MASK.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0751D16EBA80081ED1C /* BEAST-MASK.png */; };
+		4009D0781D16EBDD0081ED1C /* ANGEL MASK.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0771D16EBDD0081ED1C /* ANGEL MASK.png */; };
+		4009D07A1D1704380081ED1C /* GYMDER START SCREEN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0791D1704380081ED1C /* GYMDER START SCREEN.jpg */; };
+		4009D07D1D170B8C0081ED1C /* RadarUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D07C1D170B8C0081ED1C /* RadarUserTableViewController.m */; };
+		4009D0801D170BC60081ED1C /* RadarUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */; };
+		4009D0821D1975300081ED1C /* PROFILE SETTINGS NEW.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0811D1975300081ED1C /* PROFILE SETTINGS NEW.png */; };
+		4009D0851D197A490081ED1C /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D0841D197A490081ED1C /* EditProfileViewController.m */; };
+		4009D0881D1AC9DF0081ED1C /* OtherUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D0871D1AC9DF0081ED1C /* OtherUserData.m */; };
+		4009D08A1D1B24F70081ED1C /* ArenaExplore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4009D0891D1B24F70081ED1C /* ArenaExplore.storyboard */; };
+		4009D08C1D1B25480081ED1C /* GYMDER ARENA for dummie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4009D08B1D1B25480081ED1C /* GYMDER ARENA for dummie.jpg */; };
+		4009D08E1D1B255C0081ED1C /* GYMDER EXPLORE for Dummie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4009D08D1D1B255C0081ED1C /* GYMDER EXPLORE for Dummie.jpg */; };
+		4009D0911D1B25B50081ED1C /* ArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D0901D1B25B50081ED1C /* ArenaViewController.m */; };
+		4009D0941D1B28A00081ED1C /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D0931D1B28A00081ED1C /* ExploreViewController.m */; };
+		4009D5611D22CB18007D8B56 /* WORKOUTS TICK.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D5601D22CB18007D8B56 /* WORKOUTS TICK.png */; };
+		4009D5651D231BFB007D8B56 /* WORKOUTS TICK item.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D5641D231BFB007D8B56 /* WORKOUTS TICK item.png */; };
+		4009D5681D23C64B007D8B56 /* TextinputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D5671D23C64B007D8B56 /* TextinputViewController.m */; };
+		4009D56B1D23D6CD007D8B56 /* NumberEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D56A1D23D6CD007D8B56 /* NumberEditViewController.m */; };
+		4009D56E1D24028B007D8B56 /* GenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D56D1D24028B007D8B56 /* GenderViewController.m */; };
+		4009D5711D241812007D8B56 /* GymEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D5701D241812007D8B56 /* GymEditViewController.m */; };
+		4009D5751D241CF3007D8B56 /* GooglePlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009D5741D241CF3007D8B56 /* GooglePlacesTableViewController.m */; };
+		4009D5791D253C22007D8B56 /* POW BUTTON WHITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 4009D5781D253C22007D8B56 /* POW BUTTON WHITE.png */; };
+		4020C88E1D27CB490081CBE2 /* POW WHITE ARENA.png in Resources */ = {isa = PBXBuildFile; fileRef = 4020C88D1D27CB490081CBE2 /* POW WHITE ARENA.png */; };
+		4020C8931D292F100081CBE2 /* ExploreCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8921D292F100081CBE2 /* ExploreCollectionViewController.m */; };
+		4020C8961D292F6C0081CBE2 /* ExploreCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8951D292F6C0081CBE2 /* ExploreCollectionViewCell.m */; };
+		4020C8981D2970880081CBE2 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4020C8971D2970880081CBE2 /* Chat.storyboard */; };
+		4020C89B1D2971940081CBE2 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C89A1D2971940081CBE2 /* ChatViewController.m */; };
+		4020C89E1D29AE530081CBE2 /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C89D1D29AE530081CBE2 /* ChatTableViewController.m */; };
+		4020C8A11D29AF030081CBE2 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8A01D29AF030081CBE2 /* ChatTableViewCell.m */; };
+		4020C8A31D2AB07E0081CBE2 /* Private.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4020C8A21D2AB07E0081CBE2 /* Private.storyboard */; };
+		4020C8A61D2AB2190081CBE2 /* NotificationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8A51D2AB2190081CBE2 /* NotificationsTableViewController.m */; };
+		4020C8A91D2AB23A0081CBE2 /* NotificationsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8A81D2AB23A0081CBE2 /* NotificationsTableViewCell.m */; };
+		4020C8AC1D2AB48F0081CBE2 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8AB1D2AB48F0081CBE2 /* NotificationsViewController.m */; };
+		4020C8AF1D2ABB190081CBE2 /* ChatsOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8AE1D2ABB190081CBE2 /* ChatsOverviewViewController.m */; };
+		4020C8B21D2ABB600081CBE2 /* ChatsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8B11D2ABB600081CBE2 /* ChatsTableViewController.m */; };
+		4020C8B51D2ABC830081CBE2 /* ChatNotificationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8B41D2ABC830081CBE2 /* ChatNotificationTableViewCell.m */; };
+		4020C8B81D2BD55F0081CBE2 /* FollowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8B71D2BD55F0081CBE2 /* FollowerViewController.m */; };
+		4020C8BB1D2BD5E70081CBE2 /* FollowerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8BA1D2BD5E70081CBE2 /* FollowerTableViewController.m */; };
+		4020C8BE1D2BD5FA0081CBE2 /* FollowerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8BD1D2BD5FA0081CBE2 /* FollowerTableViewCell.m */; };
+		4020C8C01D2D32960081CBE2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4020C8BF1D2D32960081CBE2 /* CFNetwork.framework */; };
+		4020C8C41D2D335E0081CBE2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8C31D2D335E0081CBE2 /* Reachability.m */; };
+		4020C8CF1D2E566F0081CBE2 /* ExploreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8CE1D2E566F0081CBE2 /* ExploreTableViewController.m */; };
+		4020C8D51D2E56D50081CBE2 /* ExploreTableViewCellNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8D41D2E56D50081CBE2 /* ExploreTableViewCellNormal.m */; };
+		4020C8D81D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8D71D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m */; };
+		4020C8DB1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8DA1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m */; };
+		4020C8E11D2E67790081CBE2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4020C8DE1D2E67790081CBE2 /* Info.plist */; };
+		4020C8E21D2E67790081CBE2 /* RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8E01D2E67790081CBE2 /* RFQuiltLayout.m */; };
+		4020C8EA1D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8E51D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m */; };
+		4020C8EB1D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8E71D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m */; };
+		4020C8EC1D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8E91D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m */; };
+		4020C8F11D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8F01D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m */; };
+		4020C8F41D2E9E810081CBE2 /* ExploreWaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8F31D2E9E810081CBE2 /* ExploreWaterFallViewController.m */; };
 		402480C21D049B65003C09E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 402480C11D049B65003C09E2 /* main.m */; };
 		402480C51D049B65003C09E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 402480C41D049B65003C09E2 /* AppDelegate.m */; };
-		402480C81D049B65003C09E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402480C71D049B65003C09E2 /* ViewController.m */; };
 		402480CB1D049B65003C09E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402480C91D049B65003C09E2 /* Main.storyboard */; };
 		402480CD1D049B65003C09E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402480CC1D049B65003C09E2 /* Assets.xcassets */; };
 		402480D01D049B65003C09E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402480CE1D049B65003C09E2 /* LaunchScreen.storyboard */; };
 		402480DB1D049B65003C09E2 /* GYMDERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 402480DA1D049B65003C09E2 /* GYMDERTests.m */; };
 		402480E61D049B65003C09E2 /* GYMDERUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 402480E51D049B65003C09E2 /* GYMDERUITests.m */; };
+		402480F41D049B7E003C09E2 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 402480F31D049B7E003C09E2 /* podfile */; };
+		402480F71D04A4E4003C09E2 /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 402480F61D04A4E4003C09E2 /* Bubble.m */; };
+		402480F91D04A527003C09E2 /* Bubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402480F81D04A527003C09E2 /* Bubble.xib */; };
+		402480FD1D06F23A003C09E2 /* boys girls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 402480FC1D06F23A003C09E2 /* boys girls.jpg */; };
+		402481021D081B22003C09E2 /* BubbleContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481011D081B22003C09E2 /* BubbleContent.m */; };
+		402481051D081C7B003C09E2 /* GeoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481041D081C7B003C09E2 /* GeoManager.m */; };
+		402481191D0AC495003C09E2 /* AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481181D0AC494003C09E2 /* AngleGradientLayer.m */; };
+		4024811C1D0AC4AA003C09E2 /* RadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024811B1D0AC4AA003C09E2 /* RadarViewController.m */; };
+		402481241D0AC52B003C09E2 /* Arcs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024811F1D0AC52B003C09E2 /* Arcs.m */; };
+		402481251D0AC52B003C09E2 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481211D0AC52B003C09E2 /* Dot.m */; };
+		402481261D0AC52B003C09E2 /* Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481231D0AC52B003C09E2 /* Radar.m */; };
+		402481291D0B0315003C09E2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481281D0B0315003C09E2 /* ProfileViewController.m */; };
+		4024812B1D0C52A7003C09E2 /* BACK BUTTON GREY.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */; };
+		4024812E1D0C63E6003C09E2 /* OwnUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024812D1D0C63E6003C09E2 /* OwnUserData.m */; };
+		402481301D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024812F1D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png */; };
+		402481321D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481311D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png */; };
+		402481491D0CABCB003C09E2 /* FACEBOOK LOGIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */; };
+		402481DC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png */; };
+		402481DD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png */; };
+		402481DE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png */; };
+		402481DF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png */; };
+		402481E01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png */; };
+		402481E11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png */; };
+		402481E21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png */; };
+		402481E31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png */; };
+		402481E41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png */; };
+		402481E51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png */; };
+		402481E61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png */; };
+		402481E71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png */; };
+		402481E81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png */; };
+		402481E91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png */; };
+		402481EA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png */; };
+		402481EB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png */; };
+		402481EC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png */; };
+		402481ED1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png */; };
+		402481EE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png */; };
+		402481EF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png */; };
+		402481F01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png */; };
+		402481F11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png */; };
+		402481F21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png */; };
+		402481F31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png */; };
+		402481F41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png */; };
+		402481F51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png */; };
+		402481F61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png */; };
+		402481F71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png */; };
+		402481F81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png */; };
+		402481F91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png */; };
+		402481FA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png */; };
+		402481FB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png */; };
+		402481FC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png */; };
+		402481FD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png */; };
+		402481FE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png */; };
+		402481FF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png */; };
+		402482001D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png */; };
+		402482011D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png */; };
+		402482021D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png */; };
+		402482031D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png */; };
+		402482041D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png */; };
+		402482051D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png */; };
+		402482061D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png */; };
+		402482071D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png */; };
+		402482081D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png */; };
+		402482091D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png */; };
+		4024820A1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png */; };
+		4024820B1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481DA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png */; };
+		4024820C1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481DB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png */; };
+		4024820E1D0D998A003C09E2 /* BACKGROUND.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4024820D1D0D998A003C09E2 /* BACKGROUND.jpg */; };
+		402482171D0DA4DA003C09E2 /* DOTS.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024820F1D0DA4D9003C09E2 /* DOTS.png */; };
+		402482181D0DA4DA003C09E2 /* CLOSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482101D0DA4D9003C09E2 /* CLOSE.png */; };
+		402482191D0DA4DA003C09E2 /* PROFILE CHAT SELECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482111D0DA4D9003C09E2 /* PROFILE CHAT SELECTED.png */; };
+		4024821A1D0DA4DA003C09E2 /* PROFILE CHAT.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482121D0DA4D9003C09E2 /* PROFILE CHAT.png */; };
+		4024821B1D0DA4DA003C09E2 /* PROFILE FOLLOW.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482131D0DA4D9003C09E2 /* PROFILE FOLLOW.png */; };
+		4024821C1D0DA4DA003C09E2 /* PROFILE FOLLOWSELECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482141D0DA4D9003C09E2 /* PROFILE FOLLOWSELECTED.png */; };
+		4024821D1D0DA4DA003C09E2 /* PROFILE POW SELECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482151D0DA4D9003C09E2 /* PROFILE POW SELECTED.png */; };
+		4024821E1D0DA4DA003C09E2 /* PROFILE POW.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482161D0DA4D9003C09E2 /* PROFILE POW.png */; };
+		402482261D0DB50C003C09E2 /* MENU ARENA ACTIVE.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482201D0DB50B003C09E2 /* MENU ARENA ACTIVE.png */; };
+		402482271D0DB50C003C09E2 /* MENU ARENA.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482211D0DB50B003C09E2 /* MENU ARENA.png */; };
+		402482281D0DB50C003C09E2 /* MENU DISCOVER ACTIVE.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482221D0DB50B003C09E2 /* MENU DISCOVER ACTIVE.png */; };
+		402482291D0DB50C003C09E2 /* MENU DISCOVER.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482231D0DB50B003C09E2 /* MENU DISCOVER.png */; };
+		4024822A1D0DB50C003C09E2 /* MENU EXPLORE ACTIVE.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482241D0DB50B003C09E2 /* MENU EXPLORE ACTIVE.png */; };
+		4024822B1D0DB50C003C09E2 /* MENU EXPLORE.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482251D0DB50B003C09E2 /* MENU EXPLORE.png */; };
+		402482301D0DB834003C09E2 /* MENU POW ACTIVE.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024822C1D0DB834003C09E2 /* MENU POW ACTIVE.png */; };
+		402482311D0DB834003C09E2 /* MENU POW.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024822D1D0DB834003C09E2 /* MENU POW.png */; };
+		402482321D0DB834003C09E2 /* MENU PROFILE ACTIVE.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024822E1D0DB834003C09E2 /* MENU PROFILE ACTIVE.png */; };
+		402482331D0DB834003C09E2 /* MENU PROFILE.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024822F1D0DB834003C09E2 /* MENU PROFILE.png */; };
+		4024823B1D0DD4BC003C09E2 /* SettingsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4024823A1D0DD4BC003C09E2 /* SettingsStoryboard.storyboard */; };
+		4024823E1D0DDA36003C09E2 /* WorkoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024823D1D0DDA36003C09E2 /* WorkoutsViewController.m */; };
+		402482411D0DE31F003C09E2 /* ClanOffcPro-Ultra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 402482401D0DE31F003C09E2 /* ClanOffcPro-Ultra.ttf */; };
+		BE2C647750F5D54101E37167 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A4D08FB4522128CA7144CC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +191,141 @@
 			remoteGlobalIDString = 402480BC1D049B65003C09E2;
 			remoteInfo = GYMDER;
 		};
+		402481111D0AC2CD003C09E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4024810C1D0AC2CD003C09E2 /* Radar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 931354481AF34B7300C804BE;
+			remoteInfo = Radar;
+		};
+		402481131D0AC2CD003C09E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4024810C1D0AC2CD003C09E2 /* Radar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 931354611AF34B7300C804BE;
+			remoteInfo = RadarTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13A4E64B1767BAF439EDC1EA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4CB89D0FCCA5909B3964B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4009D0411D1306DF0081ED1C /* LOCATION NEEDLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOCATION NEEDLE.png"; sourceTree = "<group>"; };
+		4009D0431D1406B50081ED1C /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		4009D0451D140D420081ED1C /* CAMERA ACTIVE AREA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CAMERA ACTIVE AREA.png"; sourceTree = "<group>"; };
+		4009D0471D140E2B0081ED1C /* CAMERA-CIRCLE GREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CAMERA-CIRCLE GREY.png"; sourceTree = "<group>"; };
+		4009D0491D140F130081ED1C /* ShootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShootViewController.h; sourceTree = "<group>"; };
+		4009D04A1D140F130081ED1C /* ShootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShootViewController.m; sourceTree = "<group>"; };
+		4009D04C1D140FBC0081ED1C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4009D04F1D155A7C0081ED1C /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		4009D0501D155A7C0081ED1C /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
+		4009D0531D1567AA0081ED1C /* MENU BUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MENU BUTTON.png"; sourceTree = "<group>"; };
+		4009D0591D156DEF0081ED1C /* LOCATION NEEDLE BIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOCATION NEEDLE BIG.png"; sourceTree = "<group>"; };
+		4009D05B1D157A510081ED1C /* ROTATE CAMERA BUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ROTATE CAMERA BUTTON.png"; sourceTree = "<group>"; };
+		4009D05D1D157CD40081ED1C /* PhotofilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotofilterViewController.h; sourceTree = "<group>"; };
+		4009D05E1D157CD40081ED1C /* PhotofilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotofilterViewController.m; sourceTree = "<group>"; };
+		4009D0601D1592BF0081ED1C /* ProfileSexyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileSexyViewController.h; sourceTree = "<group>"; };
+		4009D0611D1592BF0081ED1C /* ProfileSexyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileSexyViewController.m; sourceTree = "<group>"; };
+		4009D0631D159D470081ED1C /* PROFILE CHAT GREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROFILE CHAT GREY.png"; sourceTree = "<group>"; };
+		4009D0641D159D470081ED1C /* PROFILE FOLLOW GREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROFILE FOLLOW GREY.png"; sourceTree = "<group>"; };
+		4009D0651D159D470081ED1C /* PROFILE POW GREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROFILE POW GREY.png"; sourceTree = "<group>"; };
+		4009D0691D15A4590081ED1C /* PROFILE SETTINGS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROFILE SETTINGS.png"; sourceTree = "<group>"; };
+		4009D06B1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CAMERA-CIRCLE WHITE.png"; sourceTree = "<group>"; };
+		4009D06D1D16C03B0081ED1C /* FACEBOOK ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FACEBOOK ICON.png"; sourceTree = "<group>"; };
+		4009D06F1D16C0470081ED1C /* FACEBOOK SELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FACEBOOK SELECTED.png"; sourceTree = "<group>"; };
+		4009D0711D16E4DC0081ED1C /* Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filters.h; sourceTree = "<group>"; };
+		4009D0721D16E4DC0081ED1C /* Filters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filters.m; sourceTree = "<group>"; };
+		4009D0751D16EBA80081ED1C /* BEAST-MASK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BEAST-MASK.png"; sourceTree = "<group>"; };
+		4009D0771D16EBDD0081ED1C /* ANGEL MASK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANGEL MASK.png"; sourceTree = "<group>"; };
+		4009D0791D1704380081ED1C /* GYMDER START SCREEN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GYMDER START SCREEN.jpg"; sourceTree = "<group>"; };
+		4009D07B1D170B8C0081ED1C /* RadarUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarUserTableViewController.h; sourceTree = "<group>"; };
+		4009D07C1D170B8C0081ED1C /* RadarUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarUserTableViewController.m; sourceTree = "<group>"; };
+		4009D07E1D170BC60081ED1C /* RadarUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarUserTableViewCell.h; sourceTree = "<group>"; };
+		4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarUserTableViewCell.m; sourceTree = "<group>"; };
+		4009D0811D1975300081ED1C /* PROFILE SETTINGS NEW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROFILE SETTINGS NEW.png"; sourceTree = "<group>"; };
+		4009D0831D197A490081ED1C /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		4009D0841D197A490081ED1C /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		4009D0861D1AC9DF0081ED1C /* OtherUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherUserData.h; sourceTree = "<group>"; };
+		4009D0871D1AC9DF0081ED1C /* OtherUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherUserData.m; sourceTree = "<group>"; };
+		4009D0891D1B24F70081ED1C /* ArenaExplore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ArenaExplore.storyboard; sourceTree = "<group>"; };
+		4009D08B1D1B25480081ED1C /* GYMDER ARENA for dummie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GYMDER ARENA for dummie.jpg"; sourceTree = "<group>"; };
+		4009D08D1D1B255C0081ED1C /* GYMDER EXPLORE for Dummie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GYMDER EXPLORE for Dummie.jpg"; sourceTree = "<group>"; };
+		4009D08F1D1B25B50081ED1C /* ArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArenaViewController.h; sourceTree = "<group>"; };
+		4009D0901D1B25B50081ED1C /* ArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArenaViewController.m; sourceTree = "<group>"; };
+		4009D0921D1B28A00081ED1C /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		4009D0931D1B28A00081ED1C /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		4009D5601D22CB18007D8B56 /* WORKOUTS TICK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WORKOUTS TICK.png"; path = "Workouts/WORKOUTS TICK.png"; sourceTree = "<group>"; };
+		4009D5641D231BFB007D8B56 /* WORKOUTS TICK item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WORKOUTS TICK item.png"; path = "Workouts/WORKOUTS TICK item.png"; sourceTree = "<group>"; };
+		4009D5661D23C64B007D8B56 /* TextinputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextinputViewController.h; sourceTree = "<group>"; };
+		4009D5671D23C64B007D8B56 /* TextinputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextinputViewController.m; sourceTree = "<group>"; };
+		4009D5691D23D6CD007D8B56 /* NumberEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberEditViewController.h; sourceTree = "<group>"; };
+		4009D56A1D23D6CD007D8B56 /* NumberEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberEditViewController.m; sourceTree = "<group>"; };
+		4009D56C1D24028B007D8B56 /* GenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenderViewController.h; sourceTree = "<group>"; };
+		4009D56D1D24028B007D8B56 /* GenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenderViewController.m; sourceTree = "<group>"; };
+		4009D56F1D241812007D8B56 /* GymEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GymEditViewController.h; sourceTree = "<group>"; };
+		4009D5701D241812007D8B56 /* GymEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GymEditViewController.m; sourceTree = "<group>"; };
+		4009D5731D241CF3007D8B56 /* GooglePlacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlacesTableViewController.h; sourceTree = "<group>"; };
+		4009D5741D241CF3007D8B56 /* GooglePlacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlacesTableViewController.m; sourceTree = "<group>"; };
+		4009D5781D253C22007D8B56 /* POW BUTTON WHITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "POW BUTTON WHITE.png"; sourceTree = "<group>"; };
+		4020C88D1D27CB490081CBE2 /* POW WHITE ARENA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "POW WHITE ARENA.png"; sourceTree = "<group>"; };
+		4020C8911D292F100081CBE2 /* ExploreCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreCollectionViewController.h; sourceTree = "<group>"; };
+		4020C8921D292F100081CBE2 /* ExploreCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreCollectionViewController.m; sourceTree = "<group>"; };
+		4020C8941D292F6C0081CBE2 /* ExploreCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreCollectionViewCell.h; sourceTree = "<group>"; };
+		4020C8951D292F6C0081CBE2 /* ExploreCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreCollectionViewCell.m; sourceTree = "<group>"; };
+		4020C8971D2970880081CBE2 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		4020C8991D2971940081CBE2 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		4020C89A1D2971940081CBE2 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		4020C89C1D29AE530081CBE2 /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewController.h; sourceTree = "<group>"; };
+		4020C89D1D29AE530081CBE2 /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewController.m; sourceTree = "<group>"; };
+		4020C89F1D29AF030081CBE2 /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		4020C8A01D29AF030081CBE2 /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		4020C8A21D2AB07E0081CBE2 /* Private.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Private.storyboard; sourceTree = "<group>"; };
+		4020C8A41D2AB2190081CBE2 /* NotificationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsTableViewController.h; sourceTree = "<group>"; };
+		4020C8A51D2AB2190081CBE2 /* NotificationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsTableViewController.m; sourceTree = "<group>"; };
+		4020C8A71D2AB23A0081CBE2 /* NotificationsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsTableViewCell.h; sourceTree = "<group>"; };
+		4020C8A81D2AB23A0081CBE2 /* NotificationsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsTableViewCell.m; sourceTree = "<group>"; };
+		4020C8AA1D2AB48F0081CBE2 /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		4020C8AB1D2AB48F0081CBE2 /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
+		4020C8AD1D2ABB190081CBE2 /* ChatsOverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatsOverviewViewController.h; sourceTree = "<group>"; };
+		4020C8AE1D2ABB190081CBE2 /* ChatsOverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatsOverviewViewController.m; sourceTree = "<group>"; };
+		4020C8B01D2ABB600081CBE2 /* ChatsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatsTableViewController.h; sourceTree = "<group>"; };
+		4020C8B11D2ABB600081CBE2 /* ChatsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatsTableViewController.m; sourceTree = "<group>"; };
+		4020C8B31D2ABC830081CBE2 /* ChatNotificationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatNotificationTableViewCell.h; sourceTree = "<group>"; };
+		4020C8B41D2ABC830081CBE2 /* ChatNotificationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatNotificationTableViewCell.m; sourceTree = "<group>"; };
+		4020C8B61D2BD55F0081CBE2 /* FollowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowerViewController.h; sourceTree = "<group>"; };
+		4020C8B71D2BD55F0081CBE2 /* FollowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowerViewController.m; sourceTree = "<group>"; };
+		4020C8B91D2BD5E70081CBE2 /* FollowerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowerTableViewController.h; sourceTree = "<group>"; };
+		4020C8BA1D2BD5E70081CBE2 /* FollowerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowerTableViewController.m; sourceTree = "<group>"; };
+		4020C8BC1D2BD5FA0081CBE2 /* FollowerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowerTableViewCell.h; sourceTree = "<group>"; };
+		4020C8BD1D2BD5FA0081CBE2 /* FollowerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowerTableViewCell.m; sourceTree = "<group>"; };
+		4020C8BF1D2D32960081CBE2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4020C8C21D2D335E0081CBE2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../Downloads/Reachability 2/Reachability/Reachability.h"; sourceTree = "<group>"; };
+		4020C8C31D2D335E0081CBE2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../Downloads/Reachability 2/Reachability/Reachability.m"; sourceTree = "<group>"; };
+		4020C8CD1D2E566F0081CBE2 /* ExploreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreTableViewController.h; sourceTree = "<group>"; };
+		4020C8CE1D2E566F0081CBE2 /* ExploreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreTableViewController.m; sourceTree = "<group>"; };
+		4020C8D31D2E56D50081CBE2 /* ExploreTableViewCellNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreTableViewCellNormal.h; sourceTree = "<group>"; };
+		4020C8D41D2E56D50081CBE2 /* ExploreTableViewCellNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreTableViewCellNormal.m; sourceTree = "<group>"; };
+		4020C8D61D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreTableViewCellBigLeft.h; sourceTree = "<group>"; };
+		4020C8D71D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreTableViewCellBigLeft.m; sourceTree = "<group>"; };
+		4020C8D91D2E56F60081CBE2 /* ExploreTableViewCellBigRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreTableViewCellBigRight.h; sourceTree = "<group>"; };
+		4020C8DA1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreTableViewCellBigRight.m; sourceTree = "<group>"; };
+		4020C8DE1D2E67790081CBE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4020C8DF1D2E67790081CBE2 /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFQuiltLayout.h; sourceTree = "<group>"; };
+		4020C8E01D2E67790081CBE2 /* RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFQuiltLayout.m; sourceTree = "<group>"; };
+		4020C8E41D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallCell.h; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallCell.h"; sourceTree = "<group>"; };
+		4020C8E51D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallCell.m; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallCell.m"; sourceTree = "<group>"; };
+		4020C8E61D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallFooter.h; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallFooter.h"; sourceTree = "<group>"; };
+		4020C8E71D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallFooter.m; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallFooter.m"; sourceTree = "<group>"; };
+		4020C8E81D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallHeader.h; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallHeader.h"; sourceTree = "<group>"; };
+		4020C8E91D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallHeader.m; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallHeader.m"; sourceTree = "<group>"; };
+		4020C8EF1D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreCollectionViewControllerWaterfall.h; sourceTree = "<group>"; };
+		4020C8F01D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreCollectionViewControllerWaterfall.m; sourceTree = "<group>"; };
+		4020C8F21D2E9E810081CBE2 /* ExploreWaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreWaterFallViewController.h; sourceTree = "<group>"; };
+		4020C8F31D2E9E810081CBE2 /* ExploreWaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreWaterFallViewController.m; sourceTree = "<group>"; };
 		402480BD1D049B65003C09E2 /* GYMDER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYMDER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402480C11D049B65003C09E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		402480C31D049B65003C09E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		402480C41D049B65003C09E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		402480C61D049B65003C09E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		402480C71D049B65003C09E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		402480CA1D049B65003C09E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		402480CC1D049B65003C09E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		402480CF1D049B65003C09E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +336,107 @@
 		402480E11D049B65003C09E2 /* GYMDERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYMDERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		402480E51D049B65003C09E2 /* GYMDERUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYMDERUITests.m; sourceTree = "<group>"; };
 		402480E71D049B65003C09E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402480F31D049B7E003C09E2 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		402480F51D04A4E4003C09E2 /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bubble.h; sourceTree = "<group>"; };
+		402480F61D04A4E4003C09E2 /* Bubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bubble.m; sourceTree = "<group>"; };
+		402480F81D04A527003C09E2 /* Bubble.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Bubble.xib; sourceTree = "<group>"; };
+		402480FC1D06F23A003C09E2 /* boys girls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "boys girls.jpg"; path = "../../boys girls.jpg"; sourceTree = "<group>"; };
+		402481001D081B22003C09E2 /* BubbleContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleContent.h; sourceTree = "<group>"; };
+		402481011D081B22003C09E2 /* BubbleContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleContent.m; sourceTree = "<group>"; };
+		402481031D081C7B003C09E2 /* GeoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoManager.h; sourceTree = "<group>"; };
+		402481041D081C7B003C09E2 /* GeoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoManager.m; sourceTree = "<group>"; };
+		4024810C1D0AC2CD003C09E2 /* Radar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Radar.xcodeproj; path = "../../../Downloads/Radar-master/Radar.xcodeproj"; sourceTree = "<group>"; };
+		402481171D0AC494003C09E2 /* AngleGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngleGradientLayer.h; sourceTree = "<group>"; };
+		402481181D0AC494003C09E2 /* AngleGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngleGradientLayer.m; sourceTree = "<group>"; };
+		4024811A1D0AC4AA003C09E2 /* RadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadarViewController.h; path = "../../../../Downloads/Radar-master/Radar/Controllers/RadarViewController.h"; sourceTree = "<group>"; };
+		4024811B1D0AC4AA003C09E2 /* RadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadarViewController.m; path = "../../../../Downloads/Radar-master/Radar/Controllers/RadarViewController.m"; sourceTree = "<group>"; };
+		4024811E1D0AC52B003C09E2 /* Arcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arcs.h; sourceTree = "<group>"; };
+		4024811F1D0AC52B003C09E2 /* Arcs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arcs.m; sourceTree = "<group>"; };
+		402481201D0AC52B003C09E2 /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		402481211D0AC52B003C09E2 /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		402481221D0AC52B003C09E2 /* Radar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radar.h; sourceTree = "<group>"; };
+		402481231D0AC52B003C09E2 /* Radar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radar.m; sourceTree = "<group>"; };
+		402481271D0B0315003C09E2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		402481281D0B0315003C09E2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BACK BUTTON GREY.png"; sourceTree = "<group>"; };
+		4024812C1D0C63E6003C09E2 /* OwnUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnUserData.h; sourceTree = "<group>"; };
+		4024812D1D0C63E6003C09E2 /* OwnUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnUserData.m; sourceTree = "<group>"; };
+		4024812F1D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GYMDER DISCOVER RADAR STRUCTURE.png"; path = "../../../Desktop/Gymder New Icons/GYMDER DISCOVER RADAR STRUCTURE.png"; sourceTree = "<group>"; };
+		402481311D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GYMDER DISCOVER RADAR STRUCTURE INVERS.png"; path = "../../../Desktop/Gymder New Icons/GYMDER DISCOVER RADAR STRUCTURE INVERS.png"; sourceTree = "<group>"; };
+		402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FACEBOOK LOGIN.png"; path = "../../../Desktop/Gymder New Icons/FACEBOOK LOGIN.png"; sourceTree = "<group>"; };
+		402481AB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING00.png"; sourceTree = "<group>"; };
+		402481AC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING01.png"; sourceTree = "<group>"; };
+		402481AD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING02.png"; sourceTree = "<group>"; };
+		402481AE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING03.png"; sourceTree = "<group>"; };
+		402481AF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING04.png"; sourceTree = "<group>"; };
+		402481B01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING05.png"; sourceTree = "<group>"; };
+		402481B11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING06.png"; sourceTree = "<group>"; };
+		402481B21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING07.png"; sourceTree = "<group>"; };
+		402481B31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING08.png"; sourceTree = "<group>"; };
+		402481B41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING09.png"; sourceTree = "<group>"; };
+		402481B51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING10.png"; sourceTree = "<group>"; };
+		402481B61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING11.png"; sourceTree = "<group>"; };
+		402481B71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING12.png"; sourceTree = "<group>"; };
+		402481B81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING13.png"; sourceTree = "<group>"; };
+		402481B91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING14.png"; sourceTree = "<group>"; };
+		402481BA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING15.png"; sourceTree = "<group>"; };
+		402481BB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING16.png"; sourceTree = "<group>"; };
+		402481BC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING17.png"; sourceTree = "<group>"; };
+		402481BD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING18.png"; sourceTree = "<group>"; };
+		402481BE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING19.png"; sourceTree = "<group>"; };
+		402481BF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING20.png"; sourceTree = "<group>"; };
+		402481C01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING21.png"; sourceTree = "<group>"; };
+		402481C11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING22.png"; sourceTree = "<group>"; };
+		402481C21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING23.png"; sourceTree = "<group>"; };
+		402481C31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING24.png"; sourceTree = "<group>"; };
+		402481C41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING25.png"; sourceTree = "<group>"; };
+		402481C51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING26.png"; sourceTree = "<group>"; };
+		402481C61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING27.png"; sourceTree = "<group>"; };
+		402481C71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING28.png"; sourceTree = "<group>"; };
+		402481C81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING29.png"; sourceTree = "<group>"; };
+		402481C91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING30.png"; sourceTree = "<group>"; };
+		402481CA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING31.png"; sourceTree = "<group>"; };
+		402481CB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING32.png"; sourceTree = "<group>"; };
+		402481CC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING33.png"; sourceTree = "<group>"; };
+		402481CD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING34.png"; sourceTree = "<group>"; };
+		402481CE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING35.png"; sourceTree = "<group>"; };
+		402481CF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING36.png"; sourceTree = "<group>"; };
+		402481D01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING37.png"; sourceTree = "<group>"; };
+		402481D11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING38.png"; sourceTree = "<group>"; };
+		402481D21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING39.png"; sourceTree = "<group>"; };
+		402481D31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING40.png"; sourceTree = "<group>"; };
+		402481D41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING41.png"; sourceTree = "<group>"; };
+		402481D51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING42.png"; sourceTree = "<group>"; };
+		402481D61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING43.png"; sourceTree = "<group>"; };
+		402481D71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING44.png"; sourceTree = "<group>"; };
+		402481D81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING45.png"; sourceTree = "<group>"; };
+		402481D91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING46.png"; sourceTree = "<group>"; };
+		402481DA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING47.png"; sourceTree = "<group>"; };
+		402481DB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING48.png"; sourceTree = "<group>"; };
+		4024820D1D0D998A003C09E2 /* BACKGROUND.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BACKGROUND.jpg; path = "../../../Desktop/Gymder New Icons/Radar Screen/BACKGROUND.jpg"; sourceTree = "<group>"; };
+		4024820F1D0DA4D9003C09E2 /* DOTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DOTS.png; path = "../../../Desktop/Gymder New Icons/Profile Screen/DOTS.png"; sourceTree = "<group>"; };
+		402482101D0DA4D9003C09E2 /* CLOSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CLOSE.png; path = "../../../Desktop/Gymder New Icons/Profile Screen/CLOSE.png"; sourceTree = "<group>"; };
+		402482111D0DA4D9003C09E2 /* PROFILE CHAT SELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE CHAT SELECTED.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE CHAT SELECTED.png"; sourceTree = "<group>"; };
+		402482121D0DA4D9003C09E2 /* PROFILE CHAT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE CHAT.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE CHAT.png"; sourceTree = "<group>"; };
+		402482131D0DA4D9003C09E2 /* PROFILE FOLLOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE FOLLOW.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE FOLLOW.png"; sourceTree = "<group>"; };
+		402482141D0DA4D9003C09E2 /* PROFILE FOLLOWSELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE FOLLOWSELECTED.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE FOLLOWSELECTED.png"; sourceTree = "<group>"; };
+		402482151D0DA4D9003C09E2 /* PROFILE POW SELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE POW SELECTED.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE POW SELECTED.png"; sourceTree = "<group>"; };
+		402482161D0DA4D9003C09E2 /* PROFILE POW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE POW.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE POW.png"; sourceTree = "<group>"; };
+		402482201D0DB50B003C09E2 /* MENU ARENA ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU ARENA ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU ARENA ACTIVE.png"; sourceTree = "<group>"; };
+		402482211D0DB50B003C09E2 /* MENU ARENA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU ARENA.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU ARENA.png"; sourceTree = "<group>"; };
+		402482221D0DB50B003C09E2 /* MENU DISCOVER ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU DISCOVER ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU DISCOVER ACTIVE.png"; sourceTree = "<group>"; };
+		402482231D0DB50B003C09E2 /* MENU DISCOVER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU DISCOVER.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU DISCOVER.png"; sourceTree = "<group>"; };
+		402482241D0DB50B003C09E2 /* MENU EXPLORE ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU EXPLORE ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU EXPLORE ACTIVE.png"; sourceTree = "<group>"; };
+		402482251D0DB50B003C09E2 /* MENU EXPLORE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU EXPLORE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU EXPLORE.png"; sourceTree = "<group>"; };
+		4024822C1D0DB834003C09E2 /* MENU POW ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU POW ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU POW ACTIVE.png"; sourceTree = "<group>"; };
+		4024822D1D0DB834003C09E2 /* MENU POW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU POW.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU POW.png"; sourceTree = "<group>"; };
+		4024822E1D0DB834003C09E2 /* MENU PROFILE ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU PROFILE ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU PROFILE ACTIVE.png"; sourceTree = "<group>"; };
+		4024822F1D0DB834003C09E2 /* MENU PROFILE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU PROFILE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU PROFILE.png"; sourceTree = "<group>"; };
+		4024823A1D0DD4BC003C09E2 /* SettingsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryboard.storyboard; sourceTree = "<group>"; };
+		4024823C1D0DDA35003C09E2 /* WorkoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutsViewController.h; sourceTree = "<group>"; };
+		4024823D1D0DDA36003C09E2 /* WorkoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutsViewController.m; sourceTree = "<group>"; };
+		402482401D0DE31F003C09E2 /* ClanOffcPro-Ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ClanOffcPro-Ultra.ttf"; path = "../../GYMDER/Gymder/Gymder/ClanOffcPro-Ultra.ttf"; sourceTree = "<group>"; };
+		F8A4D08FB4522128CA7144CC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +444,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4020C8C01D2D32960081CBE2 /* CFNetwork.framework in Frameworks */,
+				4009D04D1D140FBC0081ED1C /* AVFoundation.framework in Frameworks */,
+				BE2C647750F5D54101E37167 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +467,241 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4009D04E1D155A550081ED1C /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				4009D04F1D155A7C0081ED1C /* Colors.h */,
+				4009D0501D155A7C0081ED1C /* Colors.m */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+		4009D0521D1567970081ED1C /* Navigation Menu */ = {
+			isa = PBXGroup;
+			children = (
+				4009D0531D1567AA0081ED1C /* MENU BUTTON.png */,
+			);
+			name = "Navigation Menu";
+			sourceTree = "<group>";
+		};
+		4009D0741D16EB990081ED1C /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				4009D0771D16EBDD0081ED1C /* ANGEL MASK.png */,
+				4009D0751D16EBA80081ED1C /* BEAST-MASK.png */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+		4020C8C11D2D33400081CBE2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8C21D2D335E0081CBE2 /* Reachability.h */,
+				4020C8C31D2D335E0081CBE2 /* Reachability.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		4020C8C51D2D37900081CBE2 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8F81D3166CA0081CBE2 /* Follower List */,
+				4020C8F71D3166A90081CBE2 /* Chats List */,
+				4020C8F61D31667E0081CBE2 /* Notifications List */,
+				4009D0601D1592BF0081ED1C /* ProfileSexyViewController.h */,
+				4009D0611D1592BF0081ED1C /* ProfileSexyViewController.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		4020C8C71D2D37B80081CBE2 /* Profile Editing */ = {
+			isa = PBXGroup;
+			children = (
+				4009D5691D23D6CD007D8B56 /* NumberEditViewController.h */,
+				4009D56A1D23D6CD007D8B56 /* NumberEditViewController.m */,
+				4009D5661D23C64B007D8B56 /* TextinputViewController.h */,
+				4009D5671D23C64B007D8B56 /* TextinputViewController.m */,
+				4009D0831D197A490081ED1C /* EditProfileViewController.h */,
+				4009D0841D197A490081ED1C /* EditProfileViewController.m */,
+				4009D56C1D24028B007D8B56 /* GenderViewController.h */,
+				4009D56D1D24028B007D8B56 /* GenderViewController.m */,
+				4009D5731D241CF3007D8B56 /* GooglePlacesTableViewController.h */,
+				4009D5741D241CF3007D8B56 /* GooglePlacesTableViewController.m */,
+				4009D56F1D241812007D8B56 /* GymEditViewController.h */,
+				4009D5701D241812007D8B56 /* GymEditViewController.m */,
+				4024823C1D0DDA35003C09E2 /* WorkoutsViewController.h */,
+				4024823D1D0DDA36003C09E2 /* WorkoutsViewController.m */,
+			);
+			name = "Profile Editing";
+			sourceTree = "<group>";
+		};
+		4020C8C81D2D387C0081CBE2 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4009D0491D140F130081ED1C /* ShootViewController.h */,
+				4009D04A1D140F130081ED1C /* ShootViewController.m */,
+				4009D05D1D157CD40081ED1C /* PhotofilterViewController.h */,
+				4009D05E1D157CD40081ED1C /* PhotofilterViewController.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		4020C8C91D2D38E00081CBE2 /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				4024811A1D0AC4AA003C09E2 /* RadarViewController.h */,
+				4024811B1D0AC4AA003C09E2 /* RadarViewController.m */,
+				4009D07B1D170B8C0081ED1C /* RadarUserTableViewController.h */,
+				4009D07C1D170B8C0081ED1C /* RadarUserTableViewController.m */,
+			);
+			name = Radar;
+			sourceTree = "<group>";
+		};
+		4020C8CB1D2D39510081CBE2 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				4009D0921D1B28A00081ED1C /* ExploreViewController.h */,
+				4009D0931D1B28A00081ED1C /* ExploreViewController.m */,
+				4020C8911D292F100081CBE2 /* ExploreCollectionViewController.h */,
+				4020C8921D292F100081CBE2 /* ExploreCollectionViewController.m */,
+				4020C8941D292F6C0081CBE2 /* ExploreCollectionViewCell.h */,
+				4020C8951D292F6C0081CBE2 /* ExploreCollectionViewCell.m */,
+				4020C8CD1D2E566F0081CBE2 /* ExploreTableViewController.h */,
+				4020C8CE1D2E566F0081CBE2 /* ExploreTableViewController.m */,
+				4020C8D31D2E56D50081CBE2 /* ExploreTableViewCellNormal.h */,
+				4020C8D41D2E56D50081CBE2 /* ExploreTableViewCellNormal.m */,
+				4020C8D61D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.h */,
+				4020C8D71D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m */,
+				4020C8D91D2E56F60081CBE2 /* ExploreTableViewCellBigRight.h */,
+				4020C8DA1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m */,
+				4020C8EF1D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.h */,
+				4020C8F01D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m */,
+				4020C8F21D2E9E810081CBE2 /* ExploreWaterFallViewController.h */,
+				4020C8F31D2E9E810081CBE2 /* ExploreWaterFallViewController.m */,
+			);
+			name = Explore;
+			sourceTree = "<group>";
+		};
+		4020C8CC1D2D396A0081CBE2 /* Arena */ = {
+			isa = PBXGroup;
+			children = (
+				4009D08F1D1B25B50081ED1C /* ArenaViewController.h */,
+				4009D0901D1B25B50081ED1C /* ArenaViewController.m */,
+			);
+			name = Arena;
+			sourceTree = "<group>";
+		};
+		4020C8DC1D2E67370081CBE2 /* Special Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8E41D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.h */,
+				4020C8E51D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m */,
+				4020C8E61D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.h */,
+				4020C8E71D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m */,
+				4020C8E81D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.h */,
+				4020C8E91D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m */,
+				4020C8DD1D2E67790081CBE2 /* RFQuiltLayout */,
+			);
+			name = "Special Layouts";
+			sourceTree = "<group>";
+		};
+		4020C8DD1D2E67790081CBE2 /* RFQuiltLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8DE1D2E67790081CBE2 /* Info.plist */,
+				4020C8DF1D2E67790081CBE2 /* RFQuiltLayout.h */,
+				4020C8E01D2E67790081CBE2 /* RFQuiltLayout.m */,
+			);
+			name = RFQuiltLayout;
+			path = "../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout";
+			sourceTree = "<group>";
+		};
+		4020C8F51D315FCB0081CBE2 /* Data Processing */ = {
+			isa = PBXGroup;
+			children = (
+				4024812C1D0C63E6003C09E2 /* OwnUserData.h */,
+				4024812D1D0C63E6003C09E2 /* OwnUserData.m */,
+				4009D0861D1AC9DF0081ED1C /* OtherUserData.h */,
+				4009D0871D1AC9DF0081ED1C /* OtherUserData.m */,
+				402481011D081B22003C09E2 /* BubbleContent.m */,
+				402481001D081B22003C09E2 /* BubbleContent.h */,
+				402481031D081C7B003C09E2 /* GeoManager.h */,
+				402481041D081C7B003C09E2 /* GeoManager.m */,
+			);
+			name = "Data Processing";
+			sourceTree = "<group>";
+		};
+		4020C8F61D31667E0081CBE2 /* Notifications List */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8A41D2AB2190081CBE2 /* NotificationsTableViewController.h */,
+				4020C8A51D2AB2190081CBE2 /* NotificationsTableViewController.m */,
+				4020C8A71D2AB23A0081CBE2 /* NotificationsTableViewCell.h */,
+				4020C8A81D2AB23A0081CBE2 /* NotificationsTableViewCell.m */,
+				4020C8AA1D2AB48F0081CBE2 /* NotificationsViewController.h */,
+				4020C8AB1D2AB48F0081CBE2 /* NotificationsViewController.m */,
+			);
+			name = "Notifications List";
+			sourceTree = "<group>";
+		};
+		4020C8F71D3166A90081CBE2 /* Chats List */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8AD1D2ABB190081CBE2 /* ChatsOverviewViewController.h */,
+				4020C8AE1D2ABB190081CBE2 /* ChatsOverviewViewController.m */,
+				4020C8B01D2ABB600081CBE2 /* ChatsTableViewController.h */,
+				4020C8B11D2ABB600081CBE2 /* ChatsTableViewController.m */,
+				4020C8B31D2ABC830081CBE2 /* ChatNotificationTableViewCell.h */,
+				4020C8B41D2ABC830081CBE2 /* ChatNotificationTableViewCell.m */,
+			);
+			name = "Chats List";
+			sourceTree = "<group>";
+		};
+		4020C8F81D3166CA0081CBE2 /* Follower List */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8B61D2BD55F0081CBE2 /* FollowerViewController.h */,
+				4020C8B71D2BD55F0081CBE2 /* FollowerViewController.m */,
+				4020C8B91D2BD5E70081CBE2 /* FollowerTableViewController.h */,
+				4020C8BA1D2BD5E70081CBE2 /* FollowerTableViewController.m */,
+				4020C8BC1D2BD5FA0081CBE2 /* FollowerTableViewCell.h */,
+				4020C8BD1D2BD5FA0081CBE2 /* FollowerTableViewCell.m */,
+			);
+			name = "Follower List";
+			sourceTree = "<group>";
+		};
+		4020C8FA1D3167620081CBE2 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8991D2971940081CBE2 /* ChatViewController.h */,
+				4020C89A1D2971940081CBE2 /* ChatViewController.m */,
+				4020C89C1D29AE530081CBE2 /* ChatTableViewController.h */,
+				4020C89D1D29AE530081CBE2 /* ChatTableViewController.m */,
+				4020C89F1D29AF030081CBE2 /* ChatTableViewCell.h */,
+				4020C8A01D29AF030081CBE2 /* ChatTableViewCell.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		4020C8FB1D31679A0081CBE2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				402481271D0B0315003C09E2 /* ProfileViewController.h */,
+				402481281D0B0315003C09E2 /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		402480B41D049B65003C09E2 = {
 			isa = PBXGroup;
 			children = (
+				402480F31D049B7E003C09E2 /* podfile */,
 				402480BF1D049B65003C09E2 /* GYMDER */,
 				402480D91D049B65003C09E2 /* GYMDERTests */,
 				402480E41D049B65003C09E2 /* GYMDERUITests */,
 				402480BE1D049B65003C09E2 /* Products */,
+				E92A0BB8AF40B3A44AA0F9D3 /* Pods */,
+				D7A8C9116D9BEAEEF874E18B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +718,27 @@
 		402480BF1D049B65003C09E2 /* GYMDER */ = {
 			isa = PBXGroup;
 			children = (
+				402480FA1D06F207003C09E2 /* Material */,
+				4020C8DC1D2E67370081CBE2 /* Special Layouts */,
+				4020C8C11D2D33400081CBE2 /* Network */,
+				4009D04E1D155A550081ED1C /* Design */,
+				4024811D1D0AC52B003C09E2 /* Views */,
+				402481161D0AC494003C09E2 /* AngleGradient */,
+				402481151D0AC41C003C09E2 /* Controllers */,
+				4020C8F51D315FCB0081CBE2 /* Data Processing */,
 				402480C31D049B65003C09E2 /* AppDelegate.h */,
 				402480C41D049B65003C09E2 /* AppDelegate.m */,
-				402480C61D049B65003C09E2 /* ViewController.h */,
-				402480C71D049B65003C09E2 /* ViewController.m */,
+				402480F51D04A4E4003C09E2 /* Bubble.h */,
+				402480F61D04A4E4003C09E2 /* Bubble.m */,
+				4009D0711D16E4DC0081ED1C /* Filters.h */,
+				4009D0721D16E4DC0081ED1C /* Filters.m */,
+				402480F81D04A527003C09E2 /* Bubble.xib */,
 				402480C91D049B65003C09E2 /* Main.storyboard */,
+				4020C8A21D2AB07E0081CBE2 /* Private.storyboard */,
+				4024823A1D0DD4BC003C09E2 /* SettingsStoryboard.storyboard */,
+				4009D0891D1B24F70081ED1C /* ArenaExplore.storyboard */,
+				4009D0431D1406B50081ED1C /* Camera.storyboard */,
+				4020C8971D2970880081CBE2 /* Chat.storyboard */,
 				402480CC1D049B65003C09E2 /* Assets.xcassets */,
 				402480CE1D049B65003C09E2 /* LaunchScreen.storyboard */,
 				402480D11D049B65003C09E2 /* Info.plist */,
@@ -140,6 +773,229 @@
 			path = GYMDERUITests;
 			sourceTree = "<group>";
 		};
+		402480FA1D06F207003C09E2 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				4009D0741D16EB990081ED1C /* Filters */,
+				4024823F1D0DE1D1003C09E2 /* Fonts */,
+				4024821F1D0DB4E8003C09E2 /* Menu Icons */,
+				4024814C1D0D7E9B003C09E2 /* GIFs */,
+				402480FB1D06F21E003C09E2 /* Images */,
+			);
+			name = Material;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		402480FB1D06F21E003C09E2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4009D0521D1567970081ED1C /* Navigation Menu */,
+				4009D0451D140D420081ED1C /* CAMERA ACTIVE AREA.png */,
+				4020C88D1D27CB490081CBE2 /* POW WHITE ARENA.png */,
+				4009D5781D253C22007D8B56 /* POW BUTTON WHITE.png */,
+				4009D0411D1306DF0081ED1C /* LOCATION NEEDLE.png */,
+				4009D0591D156DEF0081ED1C /* LOCATION NEEDLE BIG.png */,
+				4009D06B1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png */,
+				4009D5641D231BFB007D8B56 /* WORKOUTS TICK item.png */,
+				4009D0471D140E2B0081ED1C /* CAMERA-CIRCLE GREY.png */,
+				4009D08B1D1B25480081ED1C /* GYMDER ARENA for dummie.jpg */,
+				4009D06D1D16C03B0081ED1C /* FACEBOOK ICON.png */,
+				4009D06F1D16C0470081ED1C /* FACEBOOK SELECTED.png */,
+				4009D5601D22CB18007D8B56 /* WORKOUTS TICK.png */,
+				4009D0791D1704380081ED1C /* GYMDER START SCREEN.jpg */,
+				4009D08D1D1B255C0081ED1C /* GYMDER EXPLORE for Dummie.jpg */,
+				4009D05B1D157A510081ED1C /* ROTATE CAMERA BUTTON.png */,
+				4024820D1D0D998A003C09E2 /* BACKGROUND.jpg */,
+				402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */,
+				402481331D0C8DF4003C09E2 /* Profile Icons */,
+				402481311D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png */,
+				4024812F1D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png */,
+				4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */,
+				402480FC1D06F23A003C09E2 /* boys girls.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4024810D1D0AC2CD003C09E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				402481121D0AC2CD003C09E2 /* Radar.app */,
+				402481141D0AC2CD003C09E2 /* RadarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		402481151D0AC41C003C09E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8CC1D2D396A0081CBE2 /* Arena */,
+				4020C8CB1D2D39510081CBE2 /* Explore */,
+				4020C8C91D2D38E00081CBE2 /* Radar */,
+				4020C8C51D2D37900081CBE2 /* Private */,
+				4020C8C81D2D387C0081CBE2 /* Camera */,
+				4020C8FB1D31679A0081CBE2 /* Profile */,
+				4020C8C71D2D37B80081CBE2 /* Profile Editing */,
+				4020C8FA1D3167620081CBE2 /* Chat */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		402481161D0AC494003C09E2 /* AngleGradient */ = {
+			isa = PBXGroup;
+			children = (
+				402481171D0AC494003C09E2 /* AngleGradientLayer.h */,
+				402481181D0AC494003C09E2 /* AngleGradientLayer.m */,
+			);
+			name = AngleGradient;
+			path = "../../../../Downloads/Radar-master/Radar/AngleGradient";
+			sourceTree = "<group>";
+		};
+		4024811D1D0AC52B003C09E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4024811E1D0AC52B003C09E2 /* Arcs.h */,
+				4024811F1D0AC52B003C09E2 /* Arcs.m */,
+				402481201D0AC52B003C09E2 /* Dot.h */,
+				402481211D0AC52B003C09E2 /* Dot.m */,
+				402481221D0AC52B003C09E2 /* Radar.h */,
+				402481231D0AC52B003C09E2 /* Radar.m */,
+				4009D07E1D170BC60081ED1C /* RadarUserTableViewCell.h */,
+				4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */,
+			);
+			name = Views;
+			path = "../../../../Downloads/Radar-master/Radar/Views";
+			sourceTree = "<group>";
+		};
+		402481331D0C8DF4003C09E2 /* Profile Icons */ = {
+			isa = PBXGroup;
+			children = (
+				4024820F1D0DA4D9003C09E2 /* DOTS.png */,
+				402482101D0DA4D9003C09E2 /* CLOSE.png */,
+				4009D0631D159D470081ED1C /* PROFILE CHAT GREY.png */,
+				4009D0641D159D470081ED1C /* PROFILE FOLLOW GREY.png */,
+				4009D0651D159D470081ED1C /* PROFILE POW GREY.png */,
+				4009D0691D15A4590081ED1C /* PROFILE SETTINGS.png */,
+				402482111D0DA4D9003C09E2 /* PROFILE CHAT SELECTED.png */,
+				4009D0811D1975300081ED1C /* PROFILE SETTINGS NEW.png */,
+				402482121D0DA4D9003C09E2 /* PROFILE CHAT.png */,
+				402482131D0DA4D9003C09E2 /* PROFILE FOLLOW.png */,
+				402482141D0DA4D9003C09E2 /* PROFILE FOLLOWSELECTED.png */,
+				402482151D0DA4D9003C09E2 /* PROFILE POW SELECTED.png */,
+				402482161D0DA4D9003C09E2 /* PROFILE POW.png */,
+			);
+			name = "Profile Icons";
+			sourceTree = "<group>";
+		};
+		4024814C1D0D7E9B003C09E2 /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				402481AA1D0D85EF003C09E2 /* FILM PULSE */,
+			);
+			name = GIFs;
+			sourceTree = "<group>";
+		};
+		402481AA1D0D85EF003C09E2 /* FILM PULSE */ = {
+			isa = PBXGroup;
+			children = (
+				402481AB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png */,
+				402481AC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png */,
+				402481AD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png */,
+				402481AE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png */,
+				402481AF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png */,
+				402481B01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png */,
+				402481B11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png */,
+				402481B21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png */,
+				402481B31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png */,
+				402481B41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png */,
+				402481B51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png */,
+				402481B61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png */,
+				402481B71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png */,
+				402481B81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png */,
+				402481B91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png */,
+				402481BA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png */,
+				402481BB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png */,
+				402481BC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png */,
+				402481BD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png */,
+				402481BE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png */,
+				402481BF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png */,
+				402481C01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png */,
+				402481C11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png */,
+				402481C21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png */,
+				402481C31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png */,
+				402481C41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png */,
+				402481C51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png */,
+				402481C61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png */,
+				402481C71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png */,
+				402481C81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png */,
+				402481C91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png */,
+				402481CA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png */,
+				402481CB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png */,
+				402481CC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png */,
+				402481CD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png */,
+				402481CE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png */,
+				402481CF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png */,
+				402481D01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png */,
+				402481D11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png */,
+				402481D21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png */,
+				402481D31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png */,
+				402481D41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png */,
+				402481D51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png */,
+				402481D61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png */,
+				402481D71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png */,
+				402481D81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png */,
+				402481D91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png */,
+				402481DA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png */,
+				402481DB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png */,
+			);
+			name = "FILM PULSE";
+			path = "../../../Desktop/Gymder New Icons/FILM PULSE";
+			sourceTree = "<group>";
+		};
+		4024821F1D0DB4E8003C09E2 /* Menu Icons */ = {
+			isa = PBXGroup;
+			children = (
+				4024822C1D0DB834003C09E2 /* MENU POW ACTIVE.png */,
+				4024822D1D0DB834003C09E2 /* MENU POW.png */,
+				4024822E1D0DB834003C09E2 /* MENU PROFILE ACTIVE.png */,
+				4024822F1D0DB834003C09E2 /* MENU PROFILE.png */,
+				402482201D0DB50B003C09E2 /* MENU ARENA ACTIVE.png */,
+				402482211D0DB50B003C09E2 /* MENU ARENA.png */,
+				402482221D0DB50B003C09E2 /* MENU DISCOVER ACTIVE.png */,
+				402482231D0DB50B003C09E2 /* MENU DISCOVER.png */,
+				402482241D0DB50B003C09E2 /* MENU EXPLORE ACTIVE.png */,
+				402482251D0DB50B003C09E2 /* MENU EXPLORE.png */,
+			);
+			name = "Menu Icons";
+			sourceTree = "<group>";
+		};
+		4024823F1D0DE1D1003C09E2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				402482401D0DE31F003C09E2 /* ClanOffcPro-Ultra.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		D7A8C9116D9BEAEEF874E18B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8BF1D2D32960081CBE2 /* CFNetwork.framework */,
+				4009D04C1D140FBC0081ED1C /* AVFoundation.framework */,
+				4024810C1D0AC2CD003C09E2 /* Radar.xcodeproj */,
+				F8A4D08FB4522128CA7144CC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E92A0BB8AF40B3A44AA0F9D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13A4E64B1767BAF439EDC1EA /* Pods.debug.xcconfig */,
+				3D4CB89D0FCCA5909B3964B9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +1003,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 402480EA1D049B65003C09E2 /* Build configuration list for PBXNativeTarget "GYMDER" */;
 			buildPhases = (
+				788FD5FD67926FB0D78443BA /* Check Pods Manifest.lock */,
 				402480B91D049B65003C09E2 /* Sources */,
 				402480BA1D049B65003C09E2 /* Frameworks */,
 				402480BB1D049B65003C09E2 /* Resources */,
+				E28137D1209D55EABB51F63F /* Embed Pods Frameworks */,
+				A1000797DE60CFAE20404261 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +1066,7 @@
 				TargetAttributes = {
 					402480BC1D049B65003C09E2 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 743C763V47;
 					};
 					402480D51D049B65003C09E2 = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,6 +1089,12 @@
 			mainGroup = 402480B41D049B65003C09E2;
 			productRefGroup = 402480BE1D049B65003C09E2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4024810D1D0AC2CD003C09E2 /* Products */;
+					ProjectRef = 4024810C1D0AC2CD003C09E2 /* Radar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				402480BC1D049B65003C09E2 /* GYMDER */,
@@ -238,14 +1104,136 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		402481121D0AC2CD003C09E2 /* Radar.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Radar.app;
+			remoteRef = 402481111D0AC2CD003C09E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		402481141D0AC2CD003C09E2 /* RadarTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RadarTests.xctest;
+			remoteRef = 402481131D0AC2CD003C09E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		402480BB1D049B65003C09E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402481DD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png in Resources */,
+				4009D5611D22CB18007D8B56 /* WORKOUTS TICK.png in Resources */,
+				402481F31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png in Resources */,
+				4009D0671D159D470081ED1C /* PROFILE FOLLOW GREY.png in Resources */,
+				4024821B1D0DA4DA003C09E2 /* PROFILE FOLLOW.png in Resources */,
+				402481301D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png in Resources */,
 				402480D01D049B65003C09E2 /* LaunchScreen.storyboard in Resources */,
+				4009D0761D16EBA80081ED1C /* BEAST-MASK.png in Resources */,
+				402481F91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png in Resources */,
+				4009D5651D231BFB007D8B56 /* WORKOUTS TICK item.png in Resources */,
+				4009D5791D253C22007D8B56 /* POW BUTTON WHITE.png in Resources */,
+				402481E21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png in Resources */,
+				402481DE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png in Resources */,
+				402481FB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png in Resources */,
+				402481E91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png in Resources */,
+				4009D05A1D156DEF0081ED1C /* LOCATION NEEDLE BIG.png in Resources */,
+				402481E01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png in Resources */,
+				402481FF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png in Resources */,
+				4009D06A1D15A4590081ED1C /* PROFILE SETTINGS.png in Resources */,
+				4024821A1D0DA4DA003C09E2 /* PROFILE CHAT.png in Resources */,
+				4020C8E11D2E67790081CBE2 /* Info.plist in Resources */,
+				4024821D1D0DA4DA003C09E2 /* PROFILE POW SELECTED.png in Resources */,
+				402482081D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png in Resources */,
+				4009D0661D159D470081ED1C /* PROFILE CHAT GREY.png in Resources */,
+				402481F51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png in Resources */,
+				4024820B1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png in Resources */,
+				402481EB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png in Resources */,
+				402480F91D04A527003C09E2 /* Bubble.xib in Resources */,
+				402481F81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png in Resources */,
+				4020C8981D2970880081CBE2 /* Chat.storyboard in Resources */,
+				4024820A1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png in Resources */,
+				402481491D0CABCB003C09E2 /* FACEBOOK LOGIN.png in Resources */,
+				402481FC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png in Resources */,
+				4020C88E1D27CB490081CBE2 /* POW WHITE ARENA.png in Resources */,
+				402482261D0DB50C003C09E2 /* MENU ARENA ACTIVE.png in Resources */,
+				402482041D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png in Resources */,
+				4009D07A1D1704380081ED1C /* GYMDER START SCREEN.jpg in Resources */,
+				4009D0441D1406B50081ED1C /* Camera.storyboard in Resources */,
+				4009D0681D159D470081ED1C /* PROFILE POW GREY.png in Resources */,
+				4024821E1D0DA4DA003C09E2 /* PROFILE POW.png in Resources */,
+				402482411D0DE31F003C09E2 /* ClanOffcPro-Ultra.ttf in Resources */,
+				402481E31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png in Resources */,
+				402481DF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png in Resources */,
+				402482051D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png in Resources */,
+				402481F71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png in Resources */,
+				4024823B1D0DD4BC003C09E2 /* SettingsStoryboard.storyboard in Resources */,
+				402481E51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png in Resources */,
+				402482011D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png in Resources */,
+				402481F41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png in Resources */,
+				402482021D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png in Resources */,
+				402482181D0DA4DA003C09E2 /* CLOSE.png in Resources */,
+				402481ED1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png in Resources */,
+				402482091D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png in Resources */,
+				4024822B1D0DB50C003C09E2 /* MENU EXPLORE.png in Resources */,
+				402481F21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png in Resources */,
+				402482171D0DA4DA003C09E2 /* DOTS.png in Resources */,
+				402481FA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png in Resources */,
+				402481F61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png in Resources */,
+				402481FE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png in Resources */,
+				402481EF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png in Resources */,
+				402482271D0DB50C003C09E2 /* MENU ARENA.png in Resources */,
+				4024820E1D0D998A003C09E2 /* BACKGROUND.jpg in Resources */,
 				402480CD1D049B65003C09E2 /* Assets.xcassets in Resources */,
+				4009D08C1D1B25480081ED1C /* GYMDER ARENA for dummie.jpg in Resources */,
+				402481EE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png in Resources */,
+				4024812B1D0C52A7003C09E2 /* BACK BUTTON GREY.png in Resources */,
+				4009D0701D16C0470081ED1C /* FACEBOOK SELECTED.png in Resources */,
+				402481E61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png in Resources */,
+				402482281D0DB50C003C09E2 /* MENU DISCOVER ACTIVE.png in Resources */,
+				4009D08A1D1B24F70081ED1C /* ArenaExplore.storyboard in Resources */,
+				402481F11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png in Resources */,
+				4009D0421D1306DF0081ED1C /* LOCATION NEEDLE.png in Resources */,
+				4024821C1D0DA4DA003C09E2 /* PROFILE FOLLOWSELECTED.png in Resources */,
+				402480F41D049B7E003C09E2 /* podfile in Resources */,
+				402481E11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png in Resources */,
+				402481321D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png in Resources */,
+				4024822A1D0DB50C003C09E2 /* MENU EXPLORE ACTIVE.png in Resources */,
+				4009D06E1D16C03B0081ED1C /* FACEBOOK ICON.png in Resources */,
+				402482001D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png in Resources */,
+				402482291D0DB50C003C09E2 /* MENU DISCOVER.png in Resources */,
+				402481E81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png in Resources */,
+				402481FD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png in Resources */,
+				402482031D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png in Resources */,
+				4009D0821D1975300081ED1C /* PROFILE SETTINGS NEW.png in Resources */,
+				402482061D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png in Resources */,
+				402481E71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png in Resources */,
+				4009D0481D140E2B0081ED1C /* CAMERA-CIRCLE GREY.png in Resources */,
+				4009D0461D140D420081ED1C /* CAMERA ACTIVE AREA.png in Resources */,
+				4009D06C1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png in Resources */,
+				402481E41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png in Resources */,
+				4009D05C1D157A510081ED1C /* ROTATE CAMERA BUTTON.png in Resources */,
+				402482071D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png in Resources */,
 				402480CB1D049B65003C09E2 /* Main.storyboard in Resources */,
+				402481EA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png in Resources */,
+				4020C8A31D2AB07E0081CBE2 /* Private.storyboard in Resources */,
+				4009D0781D16EBDD0081ED1C /* ANGEL MASK.png in Resources */,
+				402481F01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png in Resources */,
+				402482331D0DB834003C09E2 /* MENU PROFILE.png in Resources */,
+				402482321D0DB834003C09E2 /* MENU PROFILE ACTIVE.png in Resources */,
+				4024820C1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png in Resources */,
+				4009D0541D1567AA0081ED1C /* MENU BUTTON.png in Resources */,
+				402482311D0DB834003C09E2 /* MENU POW.png in Resources */,
+				4009D08E1D1B255C0081ED1C /* GYMDER EXPLORE for Dummie.jpg in Resources */,
+				402482301D0DB834003C09E2 /* MENU POW ACTIVE.png in Resources */,
+				402480FD1D06F23A003C09E2 /* boys girls.jpg in Resources */,
+				402482191D0DA4DA003C09E2 /* PROFILE CHAT SELECTED.png in Resources */,
+				402481EC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png in Resources */,
+				402481DC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +1253,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		788FD5FD67926FB0D78443BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1000797DE60CFAE20404261 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E28137D1209D55EABB51F63F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		402480B91D049B65003C09E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402480C81D049B65003C09E2 /* ViewController.m in Sources */,
+				4009D5681D23C64B007D8B56 /* TextinputViewController.m in Sources */,
+				4009D0881D1AC9DF0081ED1C /* OtherUserData.m in Sources */,
+				4024823E1D0DDA36003C09E2 /* WorkoutsViewController.m in Sources */,
+				4020C8A91D2AB23A0081CBE2 /* NotificationsTableViewCell.m in Sources */,
+				4009D5711D241812007D8B56 /* GymEditViewController.m in Sources */,
+				4024812E1D0C63E6003C09E2 /* OwnUserData.m in Sources */,
+				4009D0621D1592BF0081ED1C /* ProfileSexyViewController.m in Sources */,
+				402481021D081B22003C09E2 /* BubbleContent.m in Sources */,
+				4009D07D1D170B8C0081ED1C /* RadarUserTableViewController.m in Sources */,
+				4020C8C41D2D335E0081CBE2 /* Reachability.m in Sources */,
+				4020C8961D292F6C0081CBE2 /* ExploreCollectionViewCell.m in Sources */,
+				4020C8BB1D2BD5E70081CBE2 /* FollowerTableViewController.m in Sources */,
+				4009D0941D1B28A00081ED1C /* ExploreViewController.m in Sources */,
+				4020C8A11D29AF030081CBE2 /* ChatTableViewCell.m in Sources */,
+				4020C8CF1D2E566F0081CBE2 /* ExploreTableViewController.m in Sources */,
+				4009D56B1D23D6CD007D8B56 /* NumberEditViewController.m in Sources */,
 				402480C51D049B65003C09E2 /* AppDelegate.m in Sources */,
+				402481251D0AC52B003C09E2 /* Dot.m in Sources */,
+				4009D0801D170BC60081ED1C /* RadarUserTableViewCell.m in Sources */,
+				4020C8EB1D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m in Sources */,
+				4020C8D81D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m in Sources */,
+				4020C8BE1D2BD5FA0081CBE2 /* FollowerTableViewCell.m in Sources */,
+				402481291D0B0315003C09E2 /* ProfileViewController.m in Sources */,
+				4020C8F11D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m in Sources */,
+				4009D04B1D140F130081ED1C /* ShootViewController.m in Sources */,
+				4020C8B81D2BD55F0081CBE2 /* FollowerViewController.m in Sources */,
+				402481261D0AC52B003C09E2 /* Radar.m in Sources */,
+				4020C89E1D29AE530081CBE2 /* ChatTableViewController.m in Sources */,
+				4009D05F1D157CD40081ED1C /* PhotofilterViewController.m in Sources */,
+				4020C8EA1D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m in Sources */,
+				402481051D081C7B003C09E2 /* GeoManager.m in Sources */,
 				402480C21D049B65003C09E2 /* main.m in Sources */,
+				4020C8F41D2E9E810081CBE2 /* ExploreWaterFallViewController.m in Sources */,
+				4020C8AC1D2AB48F0081CBE2 /* NotificationsViewController.m in Sources */,
+				4009D5751D241CF3007D8B56 /* GooglePlacesTableViewController.m in Sources */,
+				4009D0911D1B25B50081ED1C /* ArenaViewController.m in Sources */,
+				4020C8EC1D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m in Sources */,
+				4020C89B1D2971940081CBE2 /* ChatViewController.m in Sources */,
+				4020C8AF1D2ABB190081CBE2 /* ChatsOverviewViewController.m in Sources */,
+				4020C8A61D2AB2190081CBE2 /* NotificationsTableViewController.m in Sources */,
+				4009D0511D155A7C0081ED1C /* Colors.m in Sources */,
+				4020C8931D292F100081CBE2 /* ExploreCollectionViewController.m in Sources */,
+				4020C8B21D2ABB600081CBE2 /* ChatsTableViewController.m in Sources */,
+				4020C8B51D2ABC830081CBE2 /* ChatNotificationTableViewCell.m in Sources */,
+				4009D0731D16E4DC0081ED1C /* Filters.m in Sources */,
+				4009D56E1D24028B007D8B56 /* GenderViewController.m in Sources */,
+				402481191D0AC495003C09E2 /* AngleGradientLayer.m in Sources */,
+				4009D0851D197A490081ED1C /* EditProfileViewController.m in Sources */,
+				4020C8E21D2E67790081CBE2 /* RFQuiltLayout.m in Sources */,
+				402480F71D04A4E4003C09E2 /* Bubble.m in Sources */,
+				402481241D0AC52B003C09E2 /* Arcs.m in Sources */,
+				4020C8D51D2E56D50081CBE2 /* ExploreTableViewCellNormal.m in Sources */,
+				4024811C1D0AC4AA003C09E2 /* RadarViewController.m in Sources */,
+				4020C8DB1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +1498,10 @@
 		};
 		402480EB1D049B65003C09E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A4E64B1767BAF439EDC1EA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GYMDER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gymder.GYMDER;
@@ -422,8 +1511,10 @@
 		};
 		402480EC1D049B65003C09E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4CB89D0FCCA5909B3964B9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GYMDER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gymder.GYMDER;
@@ -496,6 +1587,7 @@
 				402480EC1D049B65003C09E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		402480ED1D049B65003C09E2 /* Build configuration list for PBXNativeTarget "GYMDERTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +1596,7 @@
 				402480EF1D049B65003C09E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		402480F01D049B65003C09E2 /* Build configuration list for PBXNativeTarget "GYMDERUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +1605,7 @@
 				402480F21D049B65003C09E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

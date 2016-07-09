@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Bubble.h
 //  GYMDER
 //
 //  Created by Johannes Groschopp on 05.06.16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Bubble : UIImageView
+@property (strong, nonatomic) IBOutlet UIView *view;
 
 
 @end
-
