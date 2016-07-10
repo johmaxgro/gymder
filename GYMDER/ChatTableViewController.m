@@ -93,10 +93,13 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     ChatTableViewCell *cell;
     
     QBChatMessage *currentMessage = [self.chatMessages objectAtIndex:indexPath.row];
     NSString *messageText = currentMessage.text;
+    
+    // Configure the cell...
     
     if(currentMessage.senderID == [QBSession currentSession].currentUser.ID){
         cell = [tableView dequeueReusableCellWithIdentifier:@"chatTableCellOwn" forIndexPath:indexPath];
@@ -108,9 +111,6 @@
         //[cell.ownProfileImage setImage:self.ownImage];
         [cell.ownTextView setText:messageText];
         [cell.ownTextView setFrame:CGRectMake(cell.ownTextView.frame.origin.x, cell.frame.origin.y, stringsize.width, stringsize.height)];
-        
-        NSDictionary *attr1 = @{NSFontAttributeName: [UIFont systemFontOfSize:11]};
-        CGSize stringsize1 = [@"hh:mm" sizeWithAttributes:attr1];
         
         NSCalendar *calendar = [NSCalendar currentCalendar];
         NSDateComponents *components = [calendar components:(NSCalendarUnitHour | NSCalendarUnitMinute) fromDate:currentMessage.dateSent];
@@ -130,8 +130,7 @@
         
         cell.ownTextView.rightView = cell.ownTimeView;
         cell.ownTextView.rightViewMode = UITextFieldViewModeAlways;
-//        cell.ownTime.frame = CGRectOffset(cell.ownTime.frame, 0, 5);
-        //  [cell.contentView addSubview:time];
+
     }else{
         // Table view cell for partner (left side speech bubble)...
         cell = [tableView dequeueReusableCellWithIdentifier:@"chatTableCellPartner" forIndexPath:indexPath];
@@ -152,18 +151,10 @@
         
         cell.chatPartnerTextView.rightView = cell.chatPartnerTimeView;
         cell.chatPartnerTextView.rightViewMode = UITextFieldViewModeAlways;
-//        cell.chatPartnerTime.frame = CGRectOffset(cell.chatPartnerTime.frame, 0, 5);
         [cell.chatPartnerTextView setBackgroundColor:[UIColor colorWithRed:0.749f green:0.749f blue:0.749f alpha:1.00f]];
         cell.contentView.backgroundColor = [UIColor colorWithRed:0.333f green:0.337f blue:0.341f alpha:1.00f];
         [cell.chatPartnerTextView setText:messageText];
     }
-    
-    
-    
-    
-    // Configure the cell...
-    
-    
     
     return cell;
 }

@@ -4,7 +4,7 @@
 //
 //  Created by Johannes Groschopp on 19.06.16.
 //  Copyright © 2016 GYMDER. All rights reserved.
-//
+//  FILTERS for shot images
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

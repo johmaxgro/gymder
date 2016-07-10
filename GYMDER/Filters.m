@@ -6,19 +6,15 @@
 //  Copyright © 2016 GYMDER. All rights reserved.
 //
 
+// NOT USED YET --- Filters should be implemented and used inside this Object class
+
 #import "Filters.h"
 #import <UIKit/UIKit.h>
 
 @implementation Filters
 
 -(void)beastFilter:(UIImage *)imageToFilter toImageView:(UIImageView*)iv andWaterMarkIV:(UIImageView*)watermarkIV{
-    
-    
-    
-    UIImageOrientation originalOrientation = iv.image.imageOrientation;
-    //    CIImage *bgnImage = [[CIImage alloc] initWithCGImage:[imageToFilter CGImage]];
-    
-    //    UIImage *fixedImage = [self scaleAndRotateImage:imageToFilter];
+
     UIImage *fixedImage =imageToFilter;
     
     CIImage *bgnImage = [CIImage imageWithCGImage:fixedImage.CGImage];
@@ -67,20 +63,12 @@
     UIImage *result = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
-    UIImage *imageToDisplay =
-    [UIImage imageWithCGImage:[result CGImage]
-                        scale:[result scale]
-                  orientation: imageToFilter.imageOrientation];
-    
     [iv setImage:result];
 }
 
 -(void)angelFilter:(UIImage *)imageToFilter toImageView:(UIImageView*)iV andWaterMarkIV:(UIImageView*)watermarkIV
 {
-    UIImageOrientation originalOrientation = iV.image.imageOrientation;
-    //    CIImage *inputImage = [[CIImage alloc] initWithCGImage:[imageToFilter CGImage]];;
-    
-   // UIImage *fixedImage = [self scaleAndRotateImage:imageToFilter];
+ 
     UIImage *fixedImage = imageToFilter;
     CIImage *inputImage = [CIImage imageWithCGImage:fixedImage.CGImage];
     
@@ -126,18 +114,9 @@
     UIGraphicsBeginImageContext(backgroundImage.size);
     [backgroundImage drawInRect:CGRectMake(0, 0, backgroundImage.size.width, backgroundImage.size.height)];
     [watermarkImage drawInRect:CGRectMake(watermarkIV.frame.origin.x, watermarkIV.frame.origin.y, watermarkImage.size.width, watermarkImage.size.height)];
-    UIImage *result = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
-    //    UIImage* img = [[UIImage alloc] initWithCGImage:cgImgRef scale:1.0 orientation:originalOrientation];
-    UIImage *imageToDisplay =
-    [UIImage imageWithCGImage:[result CGImage]
-                        scale:[result scale]
-                  orientation: imageToFilter.imageOrientation];
-    
     [iV setImage:backgroundImage];
-    
-    
     
 }
 

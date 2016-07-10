@@ -82,6 +82,7 @@
     }else{
         _settingsIcon.hidden = YES;
         _settingsLabel.hidden = YES;
+        _profileImage.userInteractionEnabled = NO;
         [self followOrUnfollowed];
     }
     
@@ -169,8 +170,8 @@
         _workout6View.frame = CGRectMake(_workout6View.frame.origin.x-8, _workout6View.frame.origin.y-22, _workout6View.frame.size.width, _workout6View.frame.size.height);
         
         for(NSMutableDictionary *cicleDict in workOutCircles){
-            UILabel *label = [cicleDict objectForKey:@"workoutLabel"];
-            [label setFont:[UIFont fontWithName:@"ClanOffcPro-Ultra" size:8]];
+            UILabel *workoutLabel = [cicleDict objectForKey:@"workoutLabel"];
+            [workoutLabel setFont:[UIFont fontWithName:@"ClanOffcPro-Ultra" size:8]];
         
         }
     }

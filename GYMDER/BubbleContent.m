@@ -5,6 +5,7 @@
 //  Created by Johannes Groschopp on 08.06.16.
 //  Copyright © 2016 GYMDER. All rights reserved.
 //
+//  Here inside this class user information about the nearby users on the radar screen is downloaded and given back to the RadarViewController
 
 #import "BubbleContent.h"
 @import Quickblox;
@@ -21,13 +22,7 @@
     }
     bubble = [NSMutableDictionary new];
     
-    
-//    [bubble setObject:_gymderName forKey:@"gymdername"];
-//    [bubble setObject:_age forKey:@"age"];
-//    [bubble setObject:_gym forKey:@"gym"];
-//    [bubble setObject:_info forKey:@"info"];
     [bubble setObject:[NSNumber numberWithFloat:_physicalDistance] forKey:@"physicaldistance"];
-//    [bubble setObject:_direction forKey:@"direction_to_user"];
     [bubble setObject:_userLocation forKey:@"userlocation"];
     
     [self getProfileImageByUserID:_userID andAddToDictionary:bubble];
@@ -63,6 +58,7 @@
                                         
                                         if(profileImage != nil){
                                             [toAdd setObject:profileImage forKey:@"profileimage"];
+                                            
                                             [self getUserInfoByUserID:_userID andAddToDictionary:toAdd];
                                            
                                         }
@@ -74,6 +70,10 @@
                                 } errorBlock:^(QBResponse *error) {
                                     // error handling
                                     NSLog(@"Response error download: %@", [error description]);
+                                    
+                                    // TODO: what if image download canceled?...
+                                    [toAdd setObject:[[UIImage alloc]init] forKey:@"profileimage"];
+                                    [self getUserInfoByUserID:_userID andAddToDictionary:toAdd];
                                 }];
         
     } errorBlock:^(QBResponse *response) {

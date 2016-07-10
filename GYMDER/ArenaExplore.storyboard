@@ -25,7 +25,7 @@
         <!--Explore Table-->
         <scene sceneID="yf9-uA-vRh">
             <objects>
-                <tableViewController title="Explore Table" id="xcS-3y-yti" customClass="ExploreTableViewController" sceneMemberID="viewController">
+                <tableViewController restorationIdentifier="exploreTable" storyboardIdentifier="exploreTable" title="Explore Table" id="xcS-3y-yti" customClass="ExploreTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Qxh-8o-hPz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -182,7 +182,7 @@
         <!--ExploreWaterFall-->
         <scene sceneID="ChT-Hr-tmN">
             <objects>
-                <viewController title="ExploreWaterFall" id="JQ2-md-toz" customClass="ExploreWaterFallViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="exploreWF" storyboardIdentifier="exploreWF" title="ExploreWaterFall" id="JQ2-md-toz" customClass="ExploreWaterFallViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fj6-pf-aBN"/>
                         <viewControllerLayoutGuide type="bottom" id="xEh-7a-0e7"/>

@@ -156,7 +156,8 @@
     }
 }
 
--(void) presentModalView:(UIViewController *)controller {
+// Animation for ViewController: Coming from Right
+-(void)showView:(UIViewController *)controller {
     CATransition *transition = [CATransition animation];
     transition.duration = 0.35;
     transition.timingFunction =
@@ -167,10 +168,11 @@
     // NSLog(@"%s: self.view.window=%@", _func_, self.view.window);
     UIView *containerView = self.view.window;
     [containerView.layer addAnimation:transition forKey:nil];
-    [self presentModalViewController:controller animated:NO];
+    [self showViewController:controller sender:self];
 }
 
--(void) presentModalView1:(UIViewController *)controller {
+// Animation for View Controller: Coming from Left
+-(void)showView1:(UIViewController *)controller {
     CATransition *transition = [CATransition animation];
     transition.duration = 0.35;
     transition.timingFunction =
@@ -181,7 +183,7 @@
     // NSLog(@"%s: self.view.window=%@", _func_, self.view.window);
     UIView *containerView = self.view.window;
     [containerView.layer addAnimation:transition forKey:nil];
-    [self presentModalViewController:controller animated:NO];
+    [self showViewController:controller sender:self];
 }
 
 
@@ -200,9 +202,7 @@
     }
     else if (sender.state == UIGestureRecognizerStateEnded)
     {
-        //        blurEffectView.hidden = YES;
-        //        self.navigationController.navigationBar.hidden = NO;
-        //        _menuView.hidden = YES;
+ 
     }
 }
 
@@ -235,13 +235,7 @@
         [_menuView setFrame:frameOrigin];
         
     } completion:^(BOOL finished) {
-        
-        //            //fade out
-        //            [UIView animateWithDuration:2.0f animations:^{
-        //
-        //                [_label setAlpha:0.0f];
-        //
-        //            } completion:nil];
+     
         
     }];
 }
@@ -254,7 +248,6 @@
 
 -(void)openArenaViewController{
     __block NSInteger foundIndex = NSNotFound;
-    __block NSInteger foundIndex2 = NSNotFound;
     NSLog(@"(Explore) Navigation child views: %@", _navigationVCs);
     
     [_navigationVCs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
@@ -311,7 +304,6 @@
     }];
     
     if (radarIndex != NSNotFound) {
-        RadarViewController *radar = [_navigationVCs objectAtIndex:radarIndex];
         
     }
     

@@ -18,7 +18,7 @@
 
 @interface ExploreCollectionViewControllerWaterfall ()
 @property (nonatomic, strong) NSArray *cellSizes;
-@property (nonatomic, strong) NSArray *cats;
+@property (nonatomic, strong) NSArray *content;
 @end
 
 @implementation ExploreCollectionViewControllerWaterfall
@@ -76,11 +76,11 @@ static NSString * const reuseIdentifier = @"Cell";
     return _cellSizes;
 }
 
-- (NSArray *)cats {
-    if (!_cats) {
-        _cats = @[@"cat1.jpg", @"cat2.jpg", @"cat3.jpg", @"cat4.jpg"];
+- (NSArray *)content {
+    if (!_content) {
+        _content = @[@"cat1.jpg", @"cat2.jpg", @"cat3.jpg", @"cat4.jpg"];
     }
-    return _cats;
+    return _content;
 }
 
 #pragma mark - Life Cycle
@@ -122,7 +122,7 @@ static NSString * const reuseIdentifier = @"Cell";
     CHTCollectionViewWaterfallCell *cell =
     (CHTCollectionViewWaterfallCell *)[collectionView dequeueReusableCellWithReuseIdentifier:CELL_IDENTIFIER
                                                                                 forIndexPath:indexPath];
-    cell.imageView.image = [UIImage imageNamed:self.cats[indexPath.item % 4]];
+    cell.imageView.image = [UIImage imageNamed:self.content[indexPath.item % 4]];
     return cell;
 }
 

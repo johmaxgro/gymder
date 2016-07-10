@@ -168,6 +168,65 @@
 
 }
 
+-(void)workoutColor:(NSString*)workout toImageView:(UIImageView*)imageView{
+    if([workout isEqualToString:@"hardcore"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.173f green:0.192f blue:0.208f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"hiit"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.204f green:0.196f blue:0.149f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"combat"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.204f green:0.169f blue:0.180f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"lift"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.243f green:0.275f blue:0.286f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"spin"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.349f green:0.341f blue:0.259f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"bootcamp"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.282f green:0.247f blue:0.259f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"equipment"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.349f green:0.384f blue:0.400f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"run"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.494f green:0.494f blue:0.373f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"team"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.400f green:0.353f blue:0.369f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"crossfit"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.424f green:0.467f blue:0.486f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"cardio"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.647f green:0.631f blue:0.482f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"dance"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.475f green:0.416f blue:0.439f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"bodyweight"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.502f green:0.573f blue:0.596f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"fatburn"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.796f green:0.792f blue:0.584f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"pilates"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.608f green:0.522f blue:0.553f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"free"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.600f green:0.659f blue:0.682f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"walk"]){
+        imageView.layer.borderColor = [UIColor colorWithRed:0.894f green:0.878f blue:0.659f alpha:1.00f].CGColor;
+    }
+    else if([workout isEqualToString:@"yoga"]){
+        
+        imageView.layer.borderColor = [UIColor colorWithRed:0.682f green:0.604f blue:0.624f alpha:1.00f].CGColor;
+    }
+    
+}
+
 /*
 #pragma mark - Navigation
 
@@ -221,12 +280,7 @@
         UIStoryboard *cameraStoryboard = [UIStoryboard storyboardWithName:@"ArenaExplore" bundle:nil];
         ExploreViewController *explore = [cameraStoryboard instantiateViewControllerWithIdentifier:@"explore"];
         [explore setNavigationVCs:_navigationVCs];
-////        NSMutableArray *vcs =  [[self.navigationController childViewControllers] mutableCopy];
-////        [vcs insertObject:explore atIndex:[vcs count]-1];
-////        [_navigationVCs addObject:explore];
-        
-//        //[_navigationVCs removeObject:self];
-//        [self.navigationController setViewControllers:vcs animated:NO];
+
         [self.navigationController showViewController:explore sender:self];
     }
 
@@ -242,13 +296,10 @@
     }
     else if (sender.state == UIGestureRecognizerStateChanged)
     {
-        //blurEffectView.hidden = YES;
     }
     else if (sender.state == UIGestureRecognizerStateEnded)
     {
-        //        blurEffectView.hidden = YES;
-        //        self.navigationController.navigationBar.hidden = NO;
-        //        _menuView.hidden = YES;
+
     }
 }
 
@@ -275,22 +326,7 @@
 -(void)openProfileSexyViewController{
     __block NSInteger foundIndex = NSNotFound;
     __block NSInteger foundIndex2 = NSNotFound;
-    __block NSInteger radarIndex = NSNotFound;
     NSLog(@"(Arena) Navigation child views: %@", _navigationVCs);
-    
-//    [_navigationVCs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-//        if ([obj isKindOfClass:[RadarViewController class]]) {
-//            foundIndex = idx;
-//            // stop the enumeration
-//            *stop = YES;
-//        }
-//    }];
-//    
-//    if (radarIndex != NSNotFound) {
-//        RadarViewController *radar = [_navigationVCs objectAtIndex:radarIndex];
-//        
-//    }
-    
     
     [_navigationVCs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         if ([obj isKindOfClass:[ProfileSexyViewController class]]) {
@@ -421,8 +457,7 @@
         [vcs insertObject:explore atIndex:[vcs count]-1];
         [_navigationVCs addObject:explore];
         [explore setNavigationVCs:_navigationVCs];
-////        [_navigationVCs removeObject:self];
-//        [self.navigationController setViewControllers:vcs animated:NO];
+
         [self.navigationController showViewController:explore sender:self];
     }
     
@@ -495,12 +530,6 @@
         
     } completion:^(BOOL finished) {
         
-        //            //fade out
-        //            [UIView animateWithDuration:2.0f animations:^{
-        //
-        //                [_label setAlpha:0.0f];
-        //
-        //            } completion:nil];
         
     }];
 }
@@ -521,7 +550,7 @@
     [self showViewController:shootNavigationController sender:self];
 }
 
-// Backend Code...
+// Backend API Code...
 
 -(void)getTopTenUsers{
     [objectsDescending removeAllObjects];
@@ -605,70 +634,12 @@
     
 }
 
--(void)workoutColor:(NSString*)workout toImageView:(UIImageView*)imageView{
-    if([workout isEqualToString:@"hardcore"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.173f green:0.192f blue:0.208f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"hiit"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.204f green:0.196f blue:0.149f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"combat"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.204f green:0.169f blue:0.180f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"lift"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.243f green:0.275f blue:0.286f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"spin"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.349f green:0.341f blue:0.259f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"bootcamp"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.282f green:0.247f blue:0.259f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"equipment"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.349f green:0.384f blue:0.400f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"run"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.494f green:0.494f blue:0.373f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"team"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.400f green:0.353f blue:0.369f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"crossfit"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.424f green:0.467f blue:0.486f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"cardio"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.647f green:0.631f blue:0.482f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"dance"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.475f green:0.416f blue:0.439f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"bodyweight"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.502f green:0.573f blue:0.596f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"fatburn"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.796f green:0.792f blue:0.584f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"pilates"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.608f green:0.522f blue:0.553f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"free"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.600f green:0.659f blue:0.682f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"walk"]){
-        imageView.layer.borderColor = [UIColor colorWithRed:0.894f green:0.878f blue:0.659f alpha:1.00f].CGColor;
-    }
-    else if([workout isEqualToString:@"yoga"]){
-        
-        imageView.layer.borderColor = [UIColor colorWithRed:0.682f green:0.604f blue:0.624f alpha:1.00f].CGColor;
-    }
 
-}
 
 -(void)otherUserData:(NSNotification*)notification{
     NSLog(@"Visited User Data: %@", notification.userInfo);
     [profileVC setOwnUserDataObject:[notification.userInfo mutableCopy]];
     [profileVC setOwnUserData:[notification.userInfo mutableCopy]];
-    //    [profileVC setOwnUserData:[_ownUserDataObject.userDataArray objectAtIndex:0]];
     [self presentViewController:profileNav animated:NO completion:nil];
 }
 

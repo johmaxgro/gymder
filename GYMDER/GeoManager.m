@@ -21,7 +21,6 @@ BubbleContent *bubbleContent;
 @synthesize locationManager = _locationManager;
 
 -(void)startLocationUpdate{
-//    _allGeoObjects = [NSMutableArray new];
     bubbleContent = [_bubblesVC getBubbleContent];
     geocoder = [[CLGeocoder alloc] init];
     if (_locationManager == nil)
@@ -34,10 +33,7 @@ BubbleContent *bubbleContent;
         NSLog(@"Location Manager initialized.");
     }
     [_locationManager requestWhenInUseAuthorization];
-    
-//    if ([self.locationManager respondsToSelector:@selector(setAllowsBackgroundLocationUpdates:)]) {
-//        [self.locationManager setAllowsBackgroundLocationUpdates:YES];
-//    }
+
     [_locationManager startUpdatingLocation];
     
     // Start heading updates.
@@ -143,11 +139,6 @@ BubbleContent *bubbleContent;
                             }
 
                         }
-                        
-                        
-                        
-
-                        
                         
                     } errorBlock:^(QBResponse *response) {
                         // Handle error

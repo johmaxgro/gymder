@@ -134,12 +134,8 @@ static NSString * const reuseIdentifier = @"exploreCell";
     ExploreCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"exploreCell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor lightGrayColor];
     indexPathLast = indexPath;
-    QBCOCustomObject *currentFeed = [_exploreContent objectAtIndex:indexPath.row];
     NSLog(@"Creating explore cell... %ld", (long)indexPath.row);
-//    UIImageView *test = cell.cellImage;
-    
-//    [self imageToCell:currentFeed.ID andCellImageView:cell.image andCellPath:indexPath.row andCell:cell];
-    
+
     [self configCell:cell byIndexPath:indexPath.row];
     
     cell.layer.cornerRadius = cell.frame.size.width*0.2;

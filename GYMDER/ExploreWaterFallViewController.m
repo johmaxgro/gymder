@@ -13,6 +13,7 @@
 //  Created by Nelson on 12/11/27.
 //  Copyright (c) 2012年 Nelson. All rights reserved.
 //
+// --> Free of charge
 
 #import "ExploreWaterFallViewController.h"
 #import "CHTCollectionViewWaterfallCell.h"
@@ -89,6 +90,7 @@
     return _cellSizes;
 }
 
+// From the source code --> just for testing
 - (NSArray *)cats {
     if (!_cats) {
         _cats = @[@"boys girls.jpg", @"boys girls.jpg", @"boys girls.jpg", @"boys girls.jpg"];
@@ -232,8 +234,8 @@
 }
 
 -(void)cellTap:(UIGestureRecognizer *)gestureRecognizer {
-    UIView *tappedView = [gestureRecognizer.view hitTest:[gestureRecognizer locationInView:gestureRecognizer.view] withEvent:nil];
-    NSLog(@"Tapped cell: %ld", gestureRecognizer.view.tag);
+//    UIView *tappedView = [gestureRecognizer.view hitTest:[gestureRecognizer locationInView:gestureRecognizer.view] withEvent:nil];
+//    NSLog(@"Tapped cell: %ld", gestureRecognizer.view.tag);
     
     // do something with it
 }
@@ -331,25 +333,14 @@
                                     UIImage *feedImage = [UIImage imageWithData:loadedData];
                                     
                                     if(feedImage != nil){
-//                                        UIImageView *cellImage = [[UIImageView alloc]initWithFrame:cell.frame];
-//                                        cellImage.image = feedImage;
-//                                        [cell addSubview:cellImage];
-//                                        cellImage.layer.cornerRadius = cellImage.frame.size.width*0.2;
-//                                        cellImage.contentMode = UIViewContentModeScaleAspectFill;
-//                                        cellImage.clipsToBounds = YES;
+
                                         NSLog(@"Image downloaded... %@", feedImage);
                                         NSLog(@"Image added to cell %ld", (long)cellPath);
                                         [imageView setImage:feedImage];
                                         [_images setObject:feedImage forKey:[NSString stringWithFormat:@"%ld", (long)cellPath]];
                                         [imageView setContentMode:UIViewContentModeScaleAspectFill];
                                         imageView.clipsToBounds = YES;
-                                        
-
-                                        //                                        [cell bringSubviewToFront:imageView];
-                                        //                                        cell.image.image = feedImage;
-                                        //                                        [cell.image setHidden:NO];
-                                        //                                        cell.backgroundColor = [UIColor colorWithPatternImage:feedImage];
-                                        //                                        cell.contentMode = UIViewContentModeScaleAspectFill;
+                   
                                         NSLog(@"Test image: %@", cell.subviews);
                                         
                                     }

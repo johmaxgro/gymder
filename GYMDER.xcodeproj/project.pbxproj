@@ -86,8 +86,6 @@
 		402480DB1D049B65003C09E2 /* GYMDERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 402480DA1D049B65003C09E2 /* GYMDERTests.m */; };
 		402480E61D049B65003C09E2 /* GYMDERUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 402480E51D049B65003C09E2 /* GYMDERUITests.m */; };
 		402480F41D049B7E003C09E2 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 402480F31D049B7E003C09E2 /* podfile */; };
-		402480F71D04A4E4003C09E2 /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 402480F61D04A4E4003C09E2 /* Bubble.m */; };
-		402480F91D04A527003C09E2 /* Bubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402480F81D04A527003C09E2 /* Bubble.xib */; };
 		402480FD1D06F23A003C09E2 /* boys girls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 402480FC1D06F23A003C09E2 /* boys girls.jpg */; };
 		402481021D081B22003C09E2 /* BubbleContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481011D081B22003C09E2 /* BubbleContent.m */; };
 		402481051D081C7B003C09E2 /* GeoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481041D081C7B003C09E2 /* GeoManager.m */; };
@@ -99,8 +97,6 @@
 		402481291D0B0315003C09E2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481281D0B0315003C09E2 /* ProfileViewController.m */; };
 		4024812B1D0C52A7003C09E2 /* BACK BUTTON GREY.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */; };
 		4024812E1D0C63E6003C09E2 /* OwnUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024812D1D0C63E6003C09E2 /* OwnUserData.m */; };
-		402481301D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024812F1D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png */; };
-		402481321D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481311D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png */; };
 		402481491D0CABCB003C09E2 /* FACEBOOK LOGIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */; };
 		402481DC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png */; };
 		402481DD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png */; };
@@ -240,8 +236,8 @@
 		4009D0791D1704380081ED1C /* GYMDER START SCREEN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GYMDER START SCREEN.jpg"; sourceTree = "<group>"; };
 		4009D07B1D170B8C0081ED1C /* RadarUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarUserTableViewController.h; sourceTree = "<group>"; };
 		4009D07C1D170B8C0081ED1C /* RadarUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarUserTableViewController.m; sourceTree = "<group>"; };
-		4009D07E1D170BC60081ED1C /* RadarUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarUserTableViewCell.h; sourceTree = "<group>"; };
-		4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarUserTableViewCell.m; sourceTree = "<group>"; };
+		4009D07E1D170BC60081ED1C /* RadarUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadarUserTableViewCell.h; path = "../../../../Downloads/Radar-master/Radar/Views/RadarUserTableViewCell.h"; sourceTree = "<group>"; };
+		4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadarUserTableViewCell.m; path = "../../../../Downloads/Radar-master/Radar/Views/RadarUserTableViewCell.m"; sourceTree = "<group>"; };
 		4009D0811D1975300081ED1C /* PROFILE SETTINGS NEW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROFILE SETTINGS NEW.png"; sourceTree = "<group>"; };
 		4009D0831D197A490081ED1C /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
 		4009D0841D197A490081ED1C /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
@@ -337,9 +333,6 @@
 		402480E51D049B65003C09E2 /* GYMDERUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYMDERUITests.m; sourceTree = "<group>"; };
 		402480E71D049B65003C09E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		402480F31D049B7E003C09E2 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
-		402480F51D04A4E4003C09E2 /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bubble.h; sourceTree = "<group>"; };
-		402480F61D04A4E4003C09E2 /* Bubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bubble.m; sourceTree = "<group>"; };
-		402480F81D04A527003C09E2 /* Bubble.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Bubble.xib; sourceTree = "<group>"; };
 		402480FC1D06F23A003C09E2 /* boys girls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "boys girls.jpg"; path = "../../boys girls.jpg"; sourceTree = "<group>"; };
 		402481001D081B22003C09E2 /* BubbleContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleContent.h; sourceTree = "<group>"; };
 		402481011D081B22003C09E2 /* BubbleContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleContent.m; sourceTree = "<group>"; };
@@ -361,8 +354,6 @@
 		4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BACK BUTTON GREY.png"; sourceTree = "<group>"; };
 		4024812C1D0C63E6003C09E2 /* OwnUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnUserData.h; sourceTree = "<group>"; };
 		4024812D1D0C63E6003C09E2 /* OwnUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnUserData.m; sourceTree = "<group>"; };
-		4024812F1D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GYMDER DISCOVER RADAR STRUCTURE.png"; path = "../../../Desktop/Gymder New Icons/GYMDER DISCOVER RADAR STRUCTURE.png"; sourceTree = "<group>"; };
-		402481311D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GYMDER DISCOVER RADAR STRUCTURE INVERS.png"; path = "../../../Desktop/Gymder New Icons/GYMDER DISCOVER RADAR STRUCTURE INVERS.png"; sourceTree = "<group>"; };
 		402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FACEBOOK LOGIN.png"; path = "../../../Desktop/Gymder New Icons/FACEBOOK LOGIN.png"; sourceTree = "<group>"; };
 		402481AB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING00.png"; sourceTree = "<group>"; };
 		402481AC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING01.png"; sourceTree = "<group>"; };
@@ -467,21 +458,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4009D04E1D155A550081ED1C /* Design */ = {
+		4009D04E1D155A550081ED1C /* Color References */ = {
 			isa = PBXGroup;
 			children = (
 				4009D04F1D155A7C0081ED1C /* Colors.h */,
 				4009D0501D155A7C0081ED1C /* Colors.m */,
 			);
-			name = Design;
+			name = "Color References";
 			sourceTree = "<group>";
 		};
-		4009D0521D1567970081ED1C /* Navigation Menu */ = {
+		4009D0521D1567970081ED1C /* Navigation Popup Menu */ = {
 			isa = PBXGroup;
 			children = (
+				4024821F1D0DB4E8003C09E2 /* Menu Icons */,
 				4009D0531D1567AA0081ED1C /* MENU BUTTON.png */,
 			);
-			name = "Navigation Menu";
+			name = "Navigation Popup Menu";
 			sourceTree = "<group>";
 		};
 		4009D0741D16EB990081ED1C /* Filters */ = {
@@ -553,6 +545,8 @@
 				4024811B1D0AC4AA003C09E2 /* RadarViewController.m */,
 				4009D07B1D170B8C0081ED1C /* RadarUserTableViewController.h */,
 				4009D07C1D170B8C0081ED1C /* RadarUserTableViewController.m */,
+				4009D07E1D170BC60081ED1C /* RadarUserTableViewCell.h */,
+				4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */,
 			);
 			name = Radar;
 			sourceTree = "<group>";
@@ -562,20 +556,6 @@
 			children = (
 				4009D0921D1B28A00081ED1C /* ExploreViewController.h */,
 				4009D0931D1B28A00081ED1C /* ExploreViewController.m */,
-				4020C8911D292F100081CBE2 /* ExploreCollectionViewController.h */,
-				4020C8921D292F100081CBE2 /* ExploreCollectionViewController.m */,
-				4020C8941D292F6C0081CBE2 /* ExploreCollectionViewCell.h */,
-				4020C8951D292F6C0081CBE2 /* ExploreCollectionViewCell.m */,
-				4020C8CD1D2E566F0081CBE2 /* ExploreTableViewController.h */,
-				4020C8CE1D2E566F0081CBE2 /* ExploreTableViewController.m */,
-				4020C8D31D2E56D50081CBE2 /* ExploreTableViewCellNormal.h */,
-				4020C8D41D2E56D50081CBE2 /* ExploreTableViewCellNormal.m */,
-				4020C8D61D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.h */,
-				4020C8D71D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m */,
-				4020C8D91D2E56F60081CBE2 /* ExploreTableViewCellBigRight.h */,
-				4020C8DA1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m */,
-				4020C8EF1D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.h */,
-				4020C8F01D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m */,
 				4020C8F21D2E9E810081CBE2 /* ExploreWaterFallViewController.h */,
 				4020C8F31D2E9E810081CBE2 /* ExploreWaterFallViewController.m */,
 			);
@@ -692,6 +672,111 @@
 			name = Profile;
 			sourceTree = "<group>";
 		};
+		4020C8FC1D31A5A40081CBE2 /* Image Processing */ = {
+			isa = PBXGroup;
+			children = (
+				4009D0711D16E4DC0081ED1C /* Filters.h */,
+				4009D0721D16E4DC0081ED1C /* Filters.m */,
+			);
+			name = "Image Processing";
+			sourceTree = "<group>";
+		};
+		4020C8FE1D3248C30081CBE2 /* Camera Images */ = {
+			isa = PBXGroup;
+			children = (
+				4009D0451D140D420081ED1C /* CAMERA ACTIVE AREA.png */,
+				4009D06B1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png */,
+				4009D0471D140E2B0081ED1C /* CAMERA-CIRCLE GREY.png */,
+				4009D05B1D157A510081ED1C /* ROTATE CAMERA BUTTON.png */,
+			);
+			name = "Camera Images";
+			sourceTree = "<group>";
+		};
+		4020C8FF1D3248EE0081CBE2 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				4009D06D1D16C03B0081ED1C /* FACEBOOK ICON.png */,
+				4009D06F1D16C0470081ED1C /* FACEBOOK SELECTED.png */,
+				402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		4020C9001D3249040081CBE2 /* Dummie Images */ = {
+			isa = PBXGroup;
+			children = (
+				402480FC1D06F23A003C09E2 /* boys girls.jpg */,
+				4009D08B1D1B25480081ED1C /* GYMDER ARENA for dummie.jpg */,
+				4009D08D1D1B255C0081ED1C /* GYMDER EXPLORE for Dummie.jpg */,
+			);
+			name = "Dummie Images";
+			sourceTree = "<group>";
+		};
+		4020C9011D32491E0081CBE2 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				4009D0791D1704380081ED1C /* GYMDER START SCREEN.jpg */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		4020C9021D3249730081CBE2 /* Main Background */ = {
+			isa = PBXGroup;
+			children = (
+				4024820D1D0D998A003C09E2 /* BACKGROUND.jpg */,
+			);
+			name = "Main Background";
+			sourceTree = "<group>";
+		};
+		4020C9031D324A2E0081CBE2 /* Universal Icons */ = {
+			isa = PBXGroup;
+			children = (
+				4020C88D1D27CB490081CBE2 /* POW WHITE ARENA.png */,
+				4009D5781D253C22007D8B56 /* POW BUTTON WHITE.png */,
+				4009D0411D1306DF0081ED1C /* LOCATION NEEDLE.png */,
+				4009D0591D156DEF0081ED1C /* LOCATION NEEDLE BIG.png */,
+			);
+			name = "Universal Icons";
+			sourceTree = "<group>";
+		};
+		4020C9041D324A4C0081CBE2 /* Workout Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4009D5601D22CB18007D8B56 /* WORKOUTS TICK.png */,
+				4009D5641D231BFB007D8B56 /* WORKOUTS TICK item.png */,
+			);
+			name = "Workout Settings";
+			sourceTree = "<group>";
+		};
+		4020C9051D324A6C0081CBE2 /* Navigation Icons */ = {
+			isa = PBXGroup;
+			children = (
+				4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */,
+			);
+			name = "Navigation Icons";
+			sourceTree = "<group>";
+		};
+		4020C9061D325C0D0081CBE2 /* Currently not used */ = {
+			isa = PBXGroup;
+			children = (
+				4020C8911D292F100081CBE2 /* ExploreCollectionViewController.h */,
+				4020C8921D292F100081CBE2 /* ExploreCollectionViewController.m */,
+				4020C8941D292F6C0081CBE2 /* ExploreCollectionViewCell.h */,
+				4020C8951D292F6C0081CBE2 /* ExploreCollectionViewCell.m */,
+				4020C8CD1D2E566F0081CBE2 /* ExploreTableViewController.h */,
+				4020C8CE1D2E566F0081CBE2 /* ExploreTableViewController.m */,
+				4020C8D31D2E56D50081CBE2 /* ExploreTableViewCellNormal.h */,
+				4020C8D41D2E56D50081CBE2 /* ExploreTableViewCellNormal.m */,
+				4020C8D61D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.h */,
+				4020C8D71D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m */,
+				4020C8D91D2E56F60081CBE2 /* ExploreTableViewCellBigRight.h */,
+				4020C8DA1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m */,
+				4020C8EF1D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.h */,
+				4020C8F01D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m */,
+			);
+			name = "Currently not used";
+			sourceTree = "<group>";
+		};
 		402480B41D049B65003C09E2 = {
 			isa = PBXGroup;
 			children = (
@@ -718,21 +803,18 @@
 		402480BF1D049B65003C09E2 /* GYMDER */ = {
 			isa = PBXGroup;
 			children = (
+				4020C9061D325C0D0081CBE2 /* Currently not used */,
 				402480FA1D06F207003C09E2 /* Material */,
 				4020C8DC1D2E67370081CBE2 /* Special Layouts */,
 				4020C8C11D2D33400081CBE2 /* Network */,
-				4009D04E1D155A550081ED1C /* Design */,
-				4024811D1D0AC52B003C09E2 /* Views */,
+				4009D04E1D155A550081ED1C /* Color References */,
+				4024811D1D0AC52B003C09E2 /* Views (for Radar) */,
 				402481161D0AC494003C09E2 /* AngleGradient */,
 				402481151D0AC41C003C09E2 /* Controllers */,
 				4020C8F51D315FCB0081CBE2 /* Data Processing */,
+				4020C8FC1D31A5A40081CBE2 /* Image Processing */,
 				402480C31D049B65003C09E2 /* AppDelegate.h */,
 				402480C41D049B65003C09E2 /* AppDelegate.m */,
-				402480F51D04A4E4003C09E2 /* Bubble.h */,
-				402480F61D04A4E4003C09E2 /* Bubble.m */,
-				4009D0711D16E4DC0081ED1C /* Filters.h */,
-				4009D0721D16E4DC0081ED1C /* Filters.m */,
-				402480F81D04A527003C09E2 /* Bubble.xib */,
 				402480C91D049B65003C09E2 /* Main.storyboard */,
 				4020C8A21D2AB07E0081CBE2 /* Private.storyboard */,
 				4024823A1D0DD4BC003C09E2 /* SettingsStoryboard.storyboard */,
@@ -778,7 +860,6 @@
 			children = (
 				4009D0741D16EB990081ED1C /* Filters */,
 				4024823F1D0DE1D1003C09E2 /* Fonts */,
-				4024821F1D0DB4E8003C09E2 /* Menu Icons */,
 				4024814C1D0D7E9B003C09E2 /* GIFs */,
 				402480FB1D06F21E003C09E2 /* Images */,
 			);
@@ -789,29 +870,16 @@
 		402480FB1D06F21E003C09E2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				4009D0521D1567970081ED1C /* Navigation Menu */,
-				4009D0451D140D420081ED1C /* CAMERA ACTIVE AREA.png */,
-				4020C88D1D27CB490081CBE2 /* POW WHITE ARENA.png */,
-				4009D5781D253C22007D8B56 /* POW BUTTON WHITE.png */,
-				4009D0411D1306DF0081ED1C /* LOCATION NEEDLE.png */,
-				4009D0591D156DEF0081ED1C /* LOCATION NEEDLE BIG.png */,
-				4009D06B1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png */,
-				4009D5641D231BFB007D8B56 /* WORKOUTS TICK item.png */,
-				4009D0471D140E2B0081ED1C /* CAMERA-CIRCLE GREY.png */,
-				4009D08B1D1B25480081ED1C /* GYMDER ARENA for dummie.jpg */,
-				4009D06D1D16C03B0081ED1C /* FACEBOOK ICON.png */,
-				4009D06F1D16C0470081ED1C /* FACEBOOK SELECTED.png */,
-				4009D5601D22CB18007D8B56 /* WORKOUTS TICK.png */,
-				4009D0791D1704380081ED1C /* GYMDER START SCREEN.jpg */,
-				4009D08D1D1B255C0081ED1C /* GYMDER EXPLORE for Dummie.jpg */,
-				4009D05B1D157A510081ED1C /* ROTATE CAMERA BUTTON.png */,
-				4024820D1D0D998A003C09E2 /* BACKGROUND.jpg */,
-				402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */,
+				4020C9051D324A6C0081CBE2 /* Navigation Icons */,
+				4020C9041D324A4C0081CBE2 /* Workout Settings */,
+				4020C9031D324A2E0081CBE2 /* Universal Icons */,
+				4020C9021D3249730081CBE2 /* Main Background */,
+				4020C9011D32491E0081CBE2 /* Launch */,
+				4020C9001D3249040081CBE2 /* Dummie Images */,
+				4020C8FF1D3248EE0081CBE2 /* Facebook */,
+				4020C8FE1D3248C30081CBE2 /* Camera Images */,
+				4009D0521D1567970081ED1C /* Navigation Popup Menu */,
 				402481331D0C8DF4003C09E2 /* Profile Icons */,
-				402481311D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png */,
-				4024812F1D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png */,
-				4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */,
-				402480FC1D06F23A003C09E2 /* boys girls.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -850,7 +918,7 @@
 			path = "../../../../Downloads/Radar-master/Radar/AngleGradient";
 			sourceTree = "<group>";
 		};
-		4024811D1D0AC52B003C09E2 /* Views */ = {
+		4024811D1D0AC52B003C09E2 /* Views (for Radar) */ = {
 			isa = PBXGroup;
 			children = (
 				4024811E1D0AC52B003C09E2 /* Arcs.h */,
@@ -859,10 +927,8 @@
 				402481211D0AC52B003C09E2 /* Dot.m */,
 				402481221D0AC52B003C09E2 /* Radar.h */,
 				402481231D0AC52B003C09E2 /* Radar.m */,
-				4009D07E1D170BC60081ED1C /* RadarUserTableViewCell.h */,
-				4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */,
 			);
-			name = Views;
+			name = "Views (for Radar)";
 			path = "../../../../Downloads/Radar-master/Radar/Views";
 			sourceTree = "<group>";
 		};
@@ -1131,7 +1197,6 @@
 				402481F31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png in Resources */,
 				4009D0671D159D470081ED1C /* PROFILE FOLLOW GREY.png in Resources */,
 				4024821B1D0DA4DA003C09E2 /* PROFILE FOLLOW.png in Resources */,
-				402481301D0C8201003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE.png in Resources */,
 				402480D01D049B65003C09E2 /* LaunchScreen.storyboard in Resources */,
 				4009D0761D16EBA80081ED1C /* BEAST-MASK.png in Resources */,
 				402481F91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png in Resources */,
@@ -1153,7 +1218,6 @@
 				402481F51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png in Resources */,
 				4024820B1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png in Resources */,
 				402481EB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png in Resources */,
-				402480F91D04A527003C09E2 /* Bubble.xib in Resources */,
 				402481F81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png in Resources */,
 				4020C8981D2970880081CBE2 /* Chat.storyboard in Resources */,
 				4024820A1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png in Resources */,
@@ -1201,7 +1265,6 @@
 				4024821C1D0DA4DA003C09E2 /* PROFILE FOLLOWSELECTED.png in Resources */,
 				402480F41D049B7E003C09E2 /* podfile in Resources */,
 				402481E11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png in Resources */,
-				402481321D0C869C003C09E2 /* GYMDER DISCOVER RADAR STRUCTURE INVERS.png in Resources */,
 				4024822A1D0DB50C003C09E2 /* MENU EXPLORE ACTIVE.png in Resources */,
 				4009D06E1D16C03B0081ED1C /* FACEBOOK ICON.png in Resources */,
 				402482001D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png in Resources */,
@@ -1355,7 +1418,6 @@
 				402481191D0AC495003C09E2 /* AngleGradientLayer.m in Sources */,
 				4009D0851D197A490081ED1C /* EditProfileViewController.m in Sources */,
 				4020C8E21D2E67790081CBE2 /* RFQuiltLayout.m in Sources */,
-				402480F71D04A4E4003C09E2 /* Bubble.m in Sources */,
 				402481241D0AC52B003C09E2 /* Arcs.m in Sources */,
 				4020C8D51D2E56D50081CBE2 /* ExploreTableViewCellNormal.m in Sources */,
 				4024811C1D0AC4AA003C09E2 /* RadarViewController.m in Sources */,

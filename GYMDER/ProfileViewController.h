@@ -10,7 +10,7 @@
 #import "OwnUserData.h"
 #import "OtherUserData.h"
 
-@interface ProfileViewController : UIViewController <UIImagePickerControllerDelegate>
+@interface ProfileViewController : UIViewController <UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 @property (strong, nonatomic) IBOutlet UIView *background;
 @property (weak, nonatomic) IBOutlet UIImageView *profileImage;
 @property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *rightSwipeGesture;

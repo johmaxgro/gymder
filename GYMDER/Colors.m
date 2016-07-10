@@ -4,7 +4,7 @@
 //
 //  Created by Johannes Groschopp on 18.06.16.
 //  Copyright © 2016 GYMDER. All rights reserved.
-//
+//  NOT USED YET --- colors should used by using this object class
 
 #import "Colors.h"
 #import <UIKit/UIKit.h>

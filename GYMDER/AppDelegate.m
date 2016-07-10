@@ -56,12 +56,6 @@
         } errorBlock:^(QBResponse *response) {
             // Handle error
         }];
-        
-
-    
- 
-
-    
     
     return handled;
 }
