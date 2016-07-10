@@ -71,8 +71,8 @@
 		4020C8D51D2E56D50081CBE2 /* ExploreTableViewCellNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8D41D2E56D50081CBE2 /* ExploreTableViewCellNormal.m */; };
 		4020C8D81D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8D71D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m */; };
 		4020C8DB1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8DA1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m */; };
-		4020C8E11D2E67790081CBE2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4020C8DE1D2E67790081CBE2 /* Info.plist */; };
-		4020C8E21D2E67790081CBE2 /* RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8E01D2E67790081CBE2 /* RFQuiltLayout.m */; };
+		4020C8E11D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4020C8DE1D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/Info.plist */; };
+		4020C8E21D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8E01D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/RFQuiltLayout.m */; };
 		4020C8EA1D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8E51D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m */; };
 		4020C8EB1D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8E71D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m */; };
 		4020C8EC1D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4020C8E91D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m */; };
@@ -89,64 +89,64 @@
 		402480FD1D06F23A003C09E2 /* boys girls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 402480FC1D06F23A003C09E2 /* boys girls.jpg */; };
 		402481021D081B22003C09E2 /* BubbleContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481011D081B22003C09E2 /* BubbleContent.m */; };
 		402481051D081C7B003C09E2 /* GeoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481041D081C7B003C09E2 /* GeoManager.m */; };
-		402481191D0AC495003C09E2 /* AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481181D0AC494003C09E2 /* AngleGradientLayer.m */; };
+		402481191D0AC495003C09E2 /* ../../../../../Downloads/Radar-master/Radar/AngleGradient/AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481181D0AC494003C09E2 /* ../../../../../Downloads/Radar-master/Radar/AngleGradient/AngleGradientLayer.m */; };
 		4024811C1D0AC4AA003C09E2 /* RadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024811B1D0AC4AA003C09E2 /* RadarViewController.m */; };
-		402481241D0AC52B003C09E2 /* Arcs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024811F1D0AC52B003C09E2 /* Arcs.m */; };
-		402481251D0AC52B003C09E2 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481211D0AC52B003C09E2 /* Dot.m */; };
-		402481261D0AC52B003C09E2 /* Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481231D0AC52B003C09E2 /* Radar.m */; };
+		402481241D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Arcs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024811F1D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Arcs.m */; };
+		402481251D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481211D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Dot.m */; };
+		402481261D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481231D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Radar.m */; };
 		402481291D0B0315003C09E2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402481281D0B0315003C09E2 /* ProfileViewController.m */; };
 		4024812B1D0C52A7003C09E2 /* BACK BUTTON GREY.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */; };
 		4024812E1D0C63E6003C09E2 /* OwnUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4024812D1D0C63E6003C09E2 /* OwnUserData.m */; };
 		402481491D0CABCB003C09E2 /* FACEBOOK LOGIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */; };
-		402481DC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png */; };
-		402481DD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png */; };
-		402481DE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png */; };
-		402481DF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png */; };
-		402481E01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png */; };
-		402481E11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png */; };
-		402481E21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png */; };
-		402481E31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png */; };
-		402481E41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png */; };
-		402481E51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png */; };
-		402481E61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png */; };
-		402481E71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png */; };
-		402481E81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png */; };
-		402481E91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png */; };
-		402481EA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png */; };
-		402481EB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png */; };
-		402481EC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png */; };
-		402481ED1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png */; };
-		402481EE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png */; };
-		402481EF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png */; };
-		402481F01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png */; };
-		402481F11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png */; };
-		402481F21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png */; };
-		402481F31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png */; };
-		402481F41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png */; };
-		402481F51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png */; };
-		402481F61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png */; };
-		402481F71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png */; };
-		402481F81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png */; };
-		402481F91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png */; };
-		402481FA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png */; };
-		402481FB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png */; };
-		402481FC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png */; };
-		402481FD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png */; };
-		402481FE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png */; };
-		402481FF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png */; };
-		402482001D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png */; };
-		402482011D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png */; };
-		402482021D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png */; };
-		402482031D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png */; };
-		402482041D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png */; };
-		402482051D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png */; };
-		402482061D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png */; };
-		402482071D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png */; };
-		402482081D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png */; };
-		402482091D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png */; };
-		4024820A1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png */; };
-		4024820B1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481DA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png */; };
-		4024820C1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481DB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png */; };
+		402481DC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING00.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING00.png */; };
+		402481DD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING01.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING01.png */; };
+		402481DE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING02.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING02.png */; };
+		402481DF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING03.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING03.png */; };
+		402481E01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING04.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481AF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING04.png */; };
+		402481E11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING05.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING05.png */; };
+		402481E21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING06.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING06.png */; };
+		402481E31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING07.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING07.png */; };
+		402481E41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING08.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING08.png */; };
+		402481E51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING09.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING09.png */; };
+		402481E61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING10.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING10.png */; };
+		402481E71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING11.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING11.png */; };
+		402481E81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING12.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING12.png */; };
+		402481E91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING13.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING13.png */; };
+		402481EA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING14.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481B91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING14.png */; };
+		402481EB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING15.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING15.png */; };
+		402481EC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING16.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING16.png */; };
+		402481ED1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING17.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING17.png */; };
+		402481EE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING18.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING18.png */; };
+		402481EF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING19.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING19.png */; };
+		402481F01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING20.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481BF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING20.png */; };
+		402481F11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING21.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING21.png */; };
+		402481F21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING22.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING22.png */; };
+		402481F31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING23.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING23.png */; };
+		402481F41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING24.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING24.png */; };
+		402481F51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING25.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING25.png */; };
+		402481F61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING26.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING26.png */; };
+		402481F71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING27.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING27.png */; };
+		402481F81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING28.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING28.png */; };
+		402481F91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING29.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING29.png */; };
+		402481FA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING30.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481C91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING30.png */; };
+		402481FB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING31.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING31.png */; };
+		402481FC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING32.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING32.png */; };
+		402481FD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING33.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING33.png */; };
+		402481FE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING34.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING34.png */; };
+		402481FF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING35.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING35.png */; };
+		402482001D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING36.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481CF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING36.png */; };
+		402482011D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING37.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING37.png */; };
+		402482021D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING38.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING38.png */; };
+		402482031D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING39.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING39.png */; };
+		402482041D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING40.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING40.png */; };
+		402482051D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING41.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING41.png */; };
+		402482061D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING42.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING42.png */; };
+		402482071D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING43.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING43.png */; };
+		402482081D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING44.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING44.png */; };
+		402482091D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING45.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING45.png */; };
+		4024820A1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING46.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481D91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING46.png */; };
+		4024820B1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING47.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481DA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING47.png */; };
+		4024820C1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING48.png in Resources */ = {isa = PBXBuildFile; fileRef = 402481DB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING48.png */; };
 		4024820E1D0D998A003C09E2 /* BACKGROUND.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4024820D1D0D998A003C09E2 /* BACKGROUND.jpg */; };
 		402482171D0DA4DA003C09E2 /* DOTS.png in Resources */ = {isa = PBXBuildFile; fileRef = 4024820F1D0DA4D9003C09E2 /* DOTS.png */; };
 		402482181D0DA4DA003C09E2 /* CLOSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 402482101D0DA4D9003C09E2 /* CLOSE.png */; };
@@ -236,8 +236,8 @@
 		4009D0791D1704380081ED1C /* GYMDER START SCREEN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GYMDER START SCREEN.jpg"; sourceTree = "<group>"; };
 		4009D07B1D170B8C0081ED1C /* RadarUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarUserTableViewController.h; sourceTree = "<group>"; };
 		4009D07C1D170B8C0081ED1C /* RadarUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarUserTableViewController.m; sourceTree = "<group>"; };
-		4009D07E1D170BC60081ED1C /* RadarUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadarUserTableViewCell.h; path = "../../../../Downloads/Radar-master/Radar/Views/RadarUserTableViewCell.h"; sourceTree = "<group>"; };
-		4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadarUserTableViewCell.m; path = "../../../../Downloads/Radar-master/Radar/Views/RadarUserTableViewCell.m"; sourceTree = "<group>"; };
+		4009D07E1D170BC60081ED1C /* RadarUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadarUserTableViewCell.h; path = "../../../../../../Downloads/Radar-master/Radar/Views/RadarUserTableViewCell.h"; sourceTree = "<group>"; };
+		4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadarUserTableViewCell.m; path = "../../../../../../Downloads/Radar-master/Radar/Views/RadarUserTableViewCell.m"; sourceTree = "<group>"; };
 		4009D0811D1975300081ED1C /* PROFILE SETTINGS NEW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROFILE SETTINGS NEW.png"; sourceTree = "<group>"; };
 		4009D0831D197A490081ED1C /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
 		4009D0841D197A490081ED1C /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
@@ -250,8 +250,8 @@
 		4009D0901D1B25B50081ED1C /* ArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArenaViewController.m; sourceTree = "<group>"; };
 		4009D0921D1B28A00081ED1C /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
 		4009D0931D1B28A00081ED1C /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
-		4009D5601D22CB18007D8B56 /* WORKOUTS TICK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WORKOUTS TICK.png"; path = "Workouts/WORKOUTS TICK.png"; sourceTree = "<group>"; };
-		4009D5641D231BFB007D8B56 /* WORKOUTS TICK item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WORKOUTS TICK item.png"; path = "Workouts/WORKOUTS TICK item.png"; sourceTree = "<group>"; };
+		4009D5601D22CB18007D8B56 /* WORKOUTS TICK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WORKOUTS TICK.png"; sourceTree = "<group>"; };
+		4009D5641D231BFB007D8B56 /* WORKOUTS TICK item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WORKOUTS TICK item.png"; sourceTree = "<group>"; };
 		4009D5661D23C64B007D8B56 /* TextinputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextinputViewController.h; sourceTree = "<group>"; };
 		4009D5671D23C64B007D8B56 /* TextinputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextinputViewController.m; sourceTree = "<group>"; };
 		4009D5691D23D6CD007D8B56 /* NumberEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberEditViewController.h; sourceTree = "<group>"; };
@@ -295,8 +295,8 @@
 		4020C8BC1D2BD5FA0081CBE2 /* FollowerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowerTableViewCell.h; sourceTree = "<group>"; };
 		4020C8BD1D2BD5FA0081CBE2 /* FollowerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowerTableViewCell.m; sourceTree = "<group>"; };
 		4020C8BF1D2D32960081CBE2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		4020C8C21D2D335E0081CBE2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../Downloads/Reachability 2/Reachability/Reachability.h"; sourceTree = "<group>"; };
-		4020C8C31D2D335E0081CBE2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../Downloads/Reachability 2/Reachability/Reachability.m"; sourceTree = "<group>"; };
+		4020C8C21D2D335E0081CBE2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../../Downloads/Reachability 2/Reachability/Reachability.h"; sourceTree = "<group>"; };
+		4020C8C31D2D335E0081CBE2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../../Downloads/Reachability 2/Reachability/Reachability.m"; sourceTree = "<group>"; };
 		4020C8CD1D2E566F0081CBE2 /* ExploreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreTableViewController.h; sourceTree = "<group>"; };
 		4020C8CE1D2E566F0081CBE2 /* ExploreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreTableViewController.m; sourceTree = "<group>"; };
 		4020C8D31D2E56D50081CBE2 /* ExploreTableViewCellNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreTableViewCellNormal.h; sourceTree = "<group>"; };
@@ -305,15 +305,15 @@
 		4020C8D71D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreTableViewCellBigLeft.m; sourceTree = "<group>"; };
 		4020C8D91D2E56F60081CBE2 /* ExploreTableViewCellBigRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreTableViewCellBigRight.h; sourceTree = "<group>"; };
 		4020C8DA1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreTableViewCellBigRight.m; sourceTree = "<group>"; };
-		4020C8DE1D2E67790081CBE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4020C8DF1D2E67790081CBE2 /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFQuiltLayout.h; sourceTree = "<group>"; };
-		4020C8E01D2E67790081CBE2 /* RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFQuiltLayout.m; sourceTree = "<group>"; };
-		4020C8E41D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallCell.h; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallCell.h"; sourceTree = "<group>"; };
-		4020C8E51D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallCell.m; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallCell.m"; sourceTree = "<group>"; };
-		4020C8E61D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallFooter.h; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallFooter.h"; sourceTree = "<group>"; };
-		4020C8E71D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallFooter.m; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallFooter.m"; sourceTree = "<group>"; };
-		4020C8E81D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallHeader.h; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallHeader.h"; sourceTree = "<group>"; };
-		4020C8E91D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallHeader.m; path = "../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallHeader.m"; sourceTree = "<group>"; };
+		4020C8DE1D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/Info.plist"; sourceTree = "<group>"; };
+		4020C8DF1D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/RFQuiltLayout.h"; sourceTree = "<group>"; };
+		4020C8E01D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/RFQuiltLayout.m"; sourceTree = "<group>"; };
+		4020C8E41D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallCell.h; path = "../../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallCell.h"; sourceTree = "<group>"; };
+		4020C8E51D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallCell.m; path = "../../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallCell.m"; sourceTree = "<group>"; };
+		4020C8E61D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallFooter.h; path = "../../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallFooter.h"; sourceTree = "<group>"; };
+		4020C8E71D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallFooter.m; path = "../../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallFooter.m"; sourceTree = "<group>"; };
+		4020C8E81D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTCollectionViewWaterfallHeader.h; path = "../../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallHeader.h"; sourceTree = "<group>"; };
+		4020C8E91D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTCollectionViewWaterfallHeader.m; path = "../../../../../Downloads/CHTCollectionViewWaterfallLayout-develop/Demo/Objective-C/Demo/CHTCollectionViewWaterfallHeader.m"; sourceTree = "<group>"; };
 		4020C8EF1D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreCollectionViewControllerWaterfall.h; sourceTree = "<group>"; };
 		4020C8F01D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreCollectionViewControllerWaterfall.m; sourceTree = "<group>"; };
 		4020C8F21D2E9E810081CBE2 /* ExploreWaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreWaterFallViewController.h; sourceTree = "<group>"; };
@@ -333,100 +333,100 @@
 		402480E51D049B65003C09E2 /* GYMDERUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYMDERUITests.m; sourceTree = "<group>"; };
 		402480E71D049B65003C09E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		402480F31D049B7E003C09E2 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
-		402480FC1D06F23A003C09E2 /* boys girls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "boys girls.jpg"; path = "../../boys girls.jpg"; sourceTree = "<group>"; };
+		402480FC1D06F23A003C09E2 /* boys girls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "boys girls.jpg"; path = "../../../../../../boys girls.jpg"; sourceTree = "<group>"; };
 		402481001D081B22003C09E2 /* BubbleContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleContent.h; sourceTree = "<group>"; };
 		402481011D081B22003C09E2 /* BubbleContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleContent.m; sourceTree = "<group>"; };
 		402481031D081C7B003C09E2 /* GeoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoManager.h; sourceTree = "<group>"; };
 		402481041D081C7B003C09E2 /* GeoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoManager.m; sourceTree = "<group>"; };
 		4024810C1D0AC2CD003C09E2 /* Radar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Radar.xcodeproj; path = "../../../Downloads/Radar-master/Radar.xcodeproj"; sourceTree = "<group>"; };
-		402481171D0AC494003C09E2 /* AngleGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngleGradientLayer.h; sourceTree = "<group>"; };
-		402481181D0AC494003C09E2 /* AngleGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngleGradientLayer.m; sourceTree = "<group>"; };
-		4024811A1D0AC4AA003C09E2 /* RadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadarViewController.h; path = "../../../../Downloads/Radar-master/Radar/Controllers/RadarViewController.h"; sourceTree = "<group>"; };
-		4024811B1D0AC4AA003C09E2 /* RadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadarViewController.m; path = "../../../../Downloads/Radar-master/Radar/Controllers/RadarViewController.m"; sourceTree = "<group>"; };
-		4024811E1D0AC52B003C09E2 /* Arcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arcs.h; sourceTree = "<group>"; };
-		4024811F1D0AC52B003C09E2 /* Arcs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arcs.m; sourceTree = "<group>"; };
-		402481201D0AC52B003C09E2 /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
-		402481211D0AC52B003C09E2 /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
-		402481221D0AC52B003C09E2 /* Radar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radar.h; sourceTree = "<group>"; };
-		402481231D0AC52B003C09E2 /* Radar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radar.m; sourceTree = "<group>"; };
+		402481171D0AC494003C09E2 /* ../../../../../Downloads/Radar-master/Radar/AngleGradient/AngleGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "../../../../../Downloads/Radar-master/Radar/AngleGradient/AngleGradientLayer.h"; sourceTree = "<group>"; };
+		402481181D0AC494003C09E2 /* ../../../../../Downloads/Radar-master/Radar/AngleGradient/AngleGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "../../../../../Downloads/Radar-master/Radar/AngleGradient/AngleGradientLayer.m"; sourceTree = "<group>"; };
+		4024811A1D0AC4AA003C09E2 /* RadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadarViewController.h; path = "../../../../../../Downloads/Radar-master/Radar/Controllers/RadarViewController.h"; sourceTree = "<group>"; };
+		4024811B1D0AC4AA003C09E2 /* RadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadarViewController.m; path = "../../../../../../Downloads/Radar-master/Radar/Controllers/RadarViewController.m"; sourceTree = "<group>"; };
+		4024811E1D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Arcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "../../../../../Downloads/Radar-master/Radar/Views/Arcs.h"; sourceTree = "<group>"; };
+		4024811F1D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Arcs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "../../../../../Downloads/Radar-master/Radar/Views/Arcs.m"; sourceTree = "<group>"; };
+		402481201D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "../../../../../Downloads/Radar-master/Radar/Views/Dot.h"; sourceTree = "<group>"; };
+		402481211D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "../../../../../Downloads/Radar-master/Radar/Views/Dot.m"; sourceTree = "<group>"; };
+		402481221D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Radar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "../../../../../Downloads/Radar-master/Radar/Views/Radar.h"; sourceTree = "<group>"; };
+		402481231D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Radar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "../../../../../Downloads/Radar-master/Radar/Views/Radar.m"; sourceTree = "<group>"; };
 		402481271D0B0315003C09E2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		402481281D0B0315003C09E2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BACK BUTTON GREY.png"; sourceTree = "<group>"; };
 		4024812C1D0C63E6003C09E2 /* OwnUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnUserData.h; sourceTree = "<group>"; };
 		4024812D1D0C63E6003C09E2 /* OwnUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnUserData.m; sourceTree = "<group>"; };
-		402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FACEBOOK LOGIN.png"; path = "../../../Desktop/Gymder New Icons/FACEBOOK LOGIN.png"; sourceTree = "<group>"; };
-		402481AB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING00.png"; sourceTree = "<group>"; };
-		402481AC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING01.png"; sourceTree = "<group>"; };
-		402481AD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING02.png"; sourceTree = "<group>"; };
-		402481AE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING03.png"; sourceTree = "<group>"; };
-		402481AF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING04.png"; sourceTree = "<group>"; };
-		402481B01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING05.png"; sourceTree = "<group>"; };
-		402481B11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING06.png"; sourceTree = "<group>"; };
-		402481B21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING07.png"; sourceTree = "<group>"; };
-		402481B31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING08.png"; sourceTree = "<group>"; };
-		402481B41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING09.png"; sourceTree = "<group>"; };
-		402481B51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING10.png"; sourceTree = "<group>"; };
-		402481B61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING11.png"; sourceTree = "<group>"; };
-		402481B71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING12.png"; sourceTree = "<group>"; };
-		402481B81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING13.png"; sourceTree = "<group>"; };
-		402481B91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING14.png"; sourceTree = "<group>"; };
-		402481BA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING15.png"; sourceTree = "<group>"; };
-		402481BB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING16.png"; sourceTree = "<group>"; };
-		402481BC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING17.png"; sourceTree = "<group>"; };
-		402481BD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING18.png"; sourceTree = "<group>"; };
-		402481BE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING19.png"; sourceTree = "<group>"; };
-		402481BF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING20.png"; sourceTree = "<group>"; };
-		402481C01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING21.png"; sourceTree = "<group>"; };
-		402481C11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING22.png"; sourceTree = "<group>"; };
-		402481C21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING23.png"; sourceTree = "<group>"; };
-		402481C31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING24.png"; sourceTree = "<group>"; };
-		402481C41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING25.png"; sourceTree = "<group>"; };
-		402481C51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING26.png"; sourceTree = "<group>"; };
-		402481C61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING27.png"; sourceTree = "<group>"; };
-		402481C71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING28.png"; sourceTree = "<group>"; };
-		402481C81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING29.png"; sourceTree = "<group>"; };
-		402481C91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING30.png"; sourceTree = "<group>"; };
-		402481CA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING31.png"; sourceTree = "<group>"; };
-		402481CB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING32.png"; sourceTree = "<group>"; };
-		402481CC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING33.png"; sourceTree = "<group>"; };
-		402481CD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING34.png"; sourceTree = "<group>"; };
-		402481CE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING35.png"; sourceTree = "<group>"; };
-		402481CF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING36.png"; sourceTree = "<group>"; };
-		402481D01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING37.png"; sourceTree = "<group>"; };
-		402481D11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING38.png"; sourceTree = "<group>"; };
-		402481D21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING39.png"; sourceTree = "<group>"; };
-		402481D31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING40.png"; sourceTree = "<group>"; };
-		402481D41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING41.png"; sourceTree = "<group>"; };
-		402481D51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING42.png"; sourceTree = "<group>"; };
-		402481D61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING43.png"; sourceTree = "<group>"; };
-		402481D71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING44.png"; sourceTree = "<group>"; };
-		402481D81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING45.png"; sourceTree = "<group>"; };
-		402481D91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING46.png"; sourceTree = "<group>"; };
-		402481DA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING47.png"; sourceTree = "<group>"; };
-		402481DB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GYMDER DISCOVER FILM_BRIEFING48.png"; sourceTree = "<group>"; };
-		4024820D1D0D998A003C09E2 /* BACKGROUND.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BACKGROUND.jpg; path = "../../../Desktop/Gymder New Icons/Radar Screen/BACKGROUND.jpg"; sourceTree = "<group>"; };
-		4024820F1D0DA4D9003C09E2 /* DOTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DOTS.png; path = "../../../Desktop/Gymder New Icons/Profile Screen/DOTS.png"; sourceTree = "<group>"; };
-		402482101D0DA4D9003C09E2 /* CLOSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CLOSE.png; path = "../../../Desktop/Gymder New Icons/Profile Screen/CLOSE.png"; sourceTree = "<group>"; };
-		402482111D0DA4D9003C09E2 /* PROFILE CHAT SELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE CHAT SELECTED.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE CHAT SELECTED.png"; sourceTree = "<group>"; };
-		402482121D0DA4D9003C09E2 /* PROFILE CHAT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE CHAT.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE CHAT.png"; sourceTree = "<group>"; };
-		402482131D0DA4D9003C09E2 /* PROFILE FOLLOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE FOLLOW.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE FOLLOW.png"; sourceTree = "<group>"; };
-		402482141D0DA4D9003C09E2 /* PROFILE FOLLOWSELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE FOLLOWSELECTED.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE FOLLOWSELECTED.png"; sourceTree = "<group>"; };
-		402482151D0DA4D9003C09E2 /* PROFILE POW SELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE POW SELECTED.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE POW SELECTED.png"; sourceTree = "<group>"; };
-		402482161D0DA4D9003C09E2 /* PROFILE POW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE POW.png"; path = "../../../Desktop/Gymder New Icons/Profile Screen/PROFILE POW.png"; sourceTree = "<group>"; };
-		402482201D0DB50B003C09E2 /* MENU ARENA ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU ARENA ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU ARENA ACTIVE.png"; sourceTree = "<group>"; };
-		402482211D0DB50B003C09E2 /* MENU ARENA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU ARENA.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU ARENA.png"; sourceTree = "<group>"; };
-		402482221D0DB50B003C09E2 /* MENU DISCOVER ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU DISCOVER ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU DISCOVER ACTIVE.png"; sourceTree = "<group>"; };
-		402482231D0DB50B003C09E2 /* MENU DISCOVER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU DISCOVER.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU DISCOVER.png"; sourceTree = "<group>"; };
-		402482241D0DB50B003C09E2 /* MENU EXPLORE ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU EXPLORE ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU EXPLORE ACTIVE.png"; sourceTree = "<group>"; };
-		402482251D0DB50B003C09E2 /* MENU EXPLORE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU EXPLORE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU EXPLORE.png"; sourceTree = "<group>"; };
-		4024822C1D0DB834003C09E2 /* MENU POW ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU POW ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU POW ACTIVE.png"; sourceTree = "<group>"; };
-		4024822D1D0DB834003C09E2 /* MENU POW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU POW.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU POW.png"; sourceTree = "<group>"; };
-		4024822E1D0DB834003C09E2 /* MENU PROFILE ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU PROFILE ACTIVE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU PROFILE ACTIVE.png"; sourceTree = "<group>"; };
-		4024822F1D0DB834003C09E2 /* MENU PROFILE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU PROFILE.png"; path = "../../../Desktop/Gymder New Icons/Radar Screen/MENU PROFILE.png"; sourceTree = "<group>"; };
+		402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FACEBOOK LOGIN.png"; path = "../../../../../../../Desktop/Gymder New Icons/FACEBOOK LOGIN.png"; sourceTree = "<group>"; };
+		402481AB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING00.png"; sourceTree = "<group>"; };
+		402481AC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING01.png"; sourceTree = "<group>"; };
+		402481AD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING02.png"; sourceTree = "<group>"; };
+		402481AE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING03.png"; sourceTree = "<group>"; };
+		402481AF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING04.png"; sourceTree = "<group>"; };
+		402481B01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING05.png"; sourceTree = "<group>"; };
+		402481B11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING06.png"; sourceTree = "<group>"; };
+		402481B21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING07.png"; sourceTree = "<group>"; };
+		402481B31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING08.png"; sourceTree = "<group>"; };
+		402481B41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING09.png"; sourceTree = "<group>"; };
+		402481B51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING10.png"; sourceTree = "<group>"; };
+		402481B61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING11.png"; sourceTree = "<group>"; };
+		402481B71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING12.png"; sourceTree = "<group>"; };
+		402481B81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING13.png"; sourceTree = "<group>"; };
+		402481B91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING14.png"; sourceTree = "<group>"; };
+		402481BA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING15.png"; sourceTree = "<group>"; };
+		402481BB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING16.png"; sourceTree = "<group>"; };
+		402481BC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING17.png"; sourceTree = "<group>"; };
+		402481BD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING18.png"; sourceTree = "<group>"; };
+		402481BE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING19.png"; sourceTree = "<group>"; };
+		402481BF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING20.png"; sourceTree = "<group>"; };
+		402481C01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING21.png"; sourceTree = "<group>"; };
+		402481C11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING22.png"; sourceTree = "<group>"; };
+		402481C21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING23.png"; sourceTree = "<group>"; };
+		402481C31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING24.png"; sourceTree = "<group>"; };
+		402481C41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING25.png"; sourceTree = "<group>"; };
+		402481C51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING26.png"; sourceTree = "<group>"; };
+		402481C61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING27.png"; sourceTree = "<group>"; };
+		402481C71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING28.png"; sourceTree = "<group>"; };
+		402481C81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING29.png"; sourceTree = "<group>"; };
+		402481C91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING30.png"; sourceTree = "<group>"; };
+		402481CA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING31.png"; sourceTree = "<group>"; };
+		402481CB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING32.png"; sourceTree = "<group>"; };
+		402481CC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING33.png"; sourceTree = "<group>"; };
+		402481CD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING34.png"; sourceTree = "<group>"; };
+		402481CE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING35.png"; sourceTree = "<group>"; };
+		402481CF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING36.png"; sourceTree = "<group>"; };
+		402481D01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING37.png"; sourceTree = "<group>"; };
+		402481D11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING38.png"; sourceTree = "<group>"; };
+		402481D21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING39.png"; sourceTree = "<group>"; };
+		402481D31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING40.png"; sourceTree = "<group>"; };
+		402481D41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING41.png"; sourceTree = "<group>"; };
+		402481D51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING42.png"; sourceTree = "<group>"; };
+		402481D61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING43.png"; sourceTree = "<group>"; };
+		402481D71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING44.png"; sourceTree = "<group>"; };
+		402481D81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING45.png"; sourceTree = "<group>"; };
+		402481D91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING46.png"; sourceTree = "<group>"; };
+		402481DA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING47.png"; sourceTree = "<group>"; };
+		402481DB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING48.png"; sourceTree = "<group>"; };
+		4024820D1D0D998A003C09E2 /* BACKGROUND.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BACKGROUND.jpg; path = "../../../../../../../Desktop/Gymder New Icons/Radar Screen/BACKGROUND.jpg"; sourceTree = "<group>"; };
+		4024820F1D0DA4D9003C09E2 /* DOTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DOTS.png; path = "../../../../../../../Desktop/Gymder New Icons/Profile Screen/DOTS.png"; sourceTree = "<group>"; };
+		402482101D0DA4D9003C09E2 /* CLOSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CLOSE.png; path = "../../../../../../../Desktop/Gymder New Icons/Profile Screen/CLOSE.png"; sourceTree = "<group>"; };
+		402482111D0DA4D9003C09E2 /* PROFILE CHAT SELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE CHAT SELECTED.png"; path = "../../../../../../../Desktop/Gymder New Icons/Profile Screen/PROFILE CHAT SELECTED.png"; sourceTree = "<group>"; };
+		402482121D0DA4D9003C09E2 /* PROFILE CHAT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE CHAT.png"; path = "../../../../../../../Desktop/Gymder New Icons/Profile Screen/PROFILE CHAT.png"; sourceTree = "<group>"; };
+		402482131D0DA4D9003C09E2 /* PROFILE FOLLOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE FOLLOW.png"; path = "../../../../../../../Desktop/Gymder New Icons/Profile Screen/PROFILE FOLLOW.png"; sourceTree = "<group>"; };
+		402482141D0DA4D9003C09E2 /* PROFILE FOLLOWSELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE FOLLOWSELECTED.png"; path = "../../../../../../../Desktop/Gymder New Icons/Profile Screen/PROFILE FOLLOWSELECTED.png"; sourceTree = "<group>"; };
+		402482151D0DA4D9003C09E2 /* PROFILE POW SELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE POW SELECTED.png"; path = "../../../../../../../Desktop/Gymder New Icons/Profile Screen/PROFILE POW SELECTED.png"; sourceTree = "<group>"; };
+		402482161D0DA4D9003C09E2 /* PROFILE POW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PROFILE POW.png"; path = "../../../../../../../Desktop/Gymder New Icons/Profile Screen/PROFILE POW.png"; sourceTree = "<group>"; };
+		402482201D0DB50B003C09E2 /* MENU ARENA ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU ARENA ACTIVE.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU ARENA ACTIVE.png"; sourceTree = "<group>"; };
+		402482211D0DB50B003C09E2 /* MENU ARENA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU ARENA.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU ARENA.png"; sourceTree = "<group>"; };
+		402482221D0DB50B003C09E2 /* MENU DISCOVER ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU DISCOVER ACTIVE.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU DISCOVER ACTIVE.png"; sourceTree = "<group>"; };
+		402482231D0DB50B003C09E2 /* MENU DISCOVER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU DISCOVER.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU DISCOVER.png"; sourceTree = "<group>"; };
+		402482241D0DB50B003C09E2 /* MENU EXPLORE ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU EXPLORE ACTIVE.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU EXPLORE ACTIVE.png"; sourceTree = "<group>"; };
+		402482251D0DB50B003C09E2 /* MENU EXPLORE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU EXPLORE.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU EXPLORE.png"; sourceTree = "<group>"; };
+		4024822C1D0DB834003C09E2 /* MENU POW ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU POW ACTIVE.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU POW ACTIVE.png"; sourceTree = "<group>"; };
+		4024822D1D0DB834003C09E2 /* MENU POW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU POW.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU POW.png"; sourceTree = "<group>"; };
+		4024822E1D0DB834003C09E2 /* MENU PROFILE ACTIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU PROFILE ACTIVE.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU PROFILE ACTIVE.png"; sourceTree = "<group>"; };
+		4024822F1D0DB834003C09E2 /* MENU PROFILE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MENU PROFILE.png"; path = "../../../../../../../../Desktop/Gymder New Icons/Radar Screen/MENU PROFILE.png"; sourceTree = "<group>"; };
 		4024823A1D0DD4BC003C09E2 /* SettingsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryboard.storyboard; sourceTree = "<group>"; };
 		4024823C1D0DDA35003C09E2 /* WorkoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutsViewController.h; sourceTree = "<group>"; };
 		4024823D1D0DDA36003C09E2 /* WorkoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutsViewController.m; sourceTree = "<group>"; };
-		402482401D0DE31F003C09E2 /* ClanOffcPro-Ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ClanOffcPro-Ultra.ttf"; path = "../../GYMDER/Gymder/Gymder/ClanOffcPro-Ultra.ttf"; sourceTree = "<group>"; };
+		402482401D0DE31F003C09E2 /* ClanOffcPro-Ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ClanOffcPro-Ultra.ttf"; path = "../../../../../GYMDER/Gymder/Gymder/ClanOffcPro-Ultra.ttf"; sourceTree = "<group>"; };
 		F8A4D08FB4522128CA7144CC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -464,7 +464,7 @@
 				4009D04F1D155A7C0081ED1C /* Colors.h */,
 				4009D0501D155A7C0081ED1C /* Colors.m */,
 			);
-			name = "Color References";
+			path = "Color References";
 			sourceTree = "<group>";
 		};
 		4009D0521D1567970081ED1C /* Navigation Popup Menu */ = {
@@ -473,7 +473,7 @@
 				4024821F1D0DB4E8003C09E2 /* Menu Icons */,
 				4009D0531D1567AA0081ED1C /* MENU BUTTON.png */,
 			);
-			name = "Navigation Popup Menu";
+			path = "Navigation Popup Menu";
 			sourceTree = "<group>";
 		};
 		4009D0741D16EB990081ED1C /* Filters */ = {
@@ -482,7 +482,7 @@
 				4009D0771D16EBDD0081ED1C /* ANGEL MASK.png */,
 				4009D0751D16EBA80081ED1C /* BEAST-MASK.png */,
 			);
-			name = Filters;
+			path = Filters;
 			sourceTree = "<group>";
 		};
 		4020C8C11D2D33400081CBE2 /* Network */ = {
@@ -491,28 +491,24 @@
 				4020C8C21D2D335E0081CBE2 /* Reachability.h */,
 				4020C8C31D2D335E0081CBE2 /* Reachability.m */,
 			);
-			name = Network;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		4020C8C51D2D37900081CBE2 /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				4020C8F81D3166CA0081CBE2 /* Follower List */,
 				4020C8F71D3166A90081CBE2 /* Chats List */,
+				4020C8F81D3166CA0081CBE2 /* Follower List */,
 				4020C8F61D31667E0081CBE2 /* Notifications List */,
 				4009D0601D1592BF0081ED1C /* ProfileSexyViewController.h */,
 				4009D0611D1592BF0081ED1C /* ProfileSexyViewController.m */,
 			);
-			name = Private;
+			path = Private;
 			sourceTree = "<group>";
 		};
 		4020C8C71D2D37B80081CBE2 /* Profile Editing */ = {
 			isa = PBXGroup;
 			children = (
-				4009D5691D23D6CD007D8B56 /* NumberEditViewController.h */,
-				4009D56A1D23D6CD007D8B56 /* NumberEditViewController.m */,
-				4009D5661D23C64B007D8B56 /* TextinputViewController.h */,
-				4009D5671D23C64B007D8B56 /* TextinputViewController.m */,
 				4009D0831D197A490081ED1C /* EditProfileViewController.h */,
 				4009D0841D197A490081ED1C /* EditProfileViewController.m */,
 				4009D56C1D24028B007D8B56 /* GenderViewController.h */,
@@ -521,34 +517,38 @@
 				4009D5741D241CF3007D8B56 /* GooglePlacesTableViewController.m */,
 				4009D56F1D241812007D8B56 /* GymEditViewController.h */,
 				4009D5701D241812007D8B56 /* GymEditViewController.m */,
+				4009D5691D23D6CD007D8B56 /* NumberEditViewController.h */,
+				4009D56A1D23D6CD007D8B56 /* NumberEditViewController.m */,
+				4009D5661D23C64B007D8B56 /* TextinputViewController.h */,
+				4009D5671D23C64B007D8B56 /* TextinputViewController.m */,
 				4024823C1D0DDA35003C09E2 /* WorkoutsViewController.h */,
 				4024823D1D0DDA36003C09E2 /* WorkoutsViewController.m */,
 			);
-			name = "Profile Editing";
+			path = "Profile Editing";
 			sourceTree = "<group>";
 		};
 		4020C8C81D2D387C0081CBE2 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				4009D0491D140F130081ED1C /* ShootViewController.h */,
-				4009D04A1D140F130081ED1C /* ShootViewController.m */,
 				4009D05D1D157CD40081ED1C /* PhotofilterViewController.h */,
 				4009D05E1D157CD40081ED1C /* PhotofilterViewController.m */,
+				4009D0491D140F130081ED1C /* ShootViewController.h */,
+				4009D04A1D140F130081ED1C /* ShootViewController.m */,
 			);
-			name = Camera;
+			path = Camera;
 			sourceTree = "<group>";
 		};
 		4020C8C91D2D38E00081CBE2 /* Radar */ = {
 			isa = PBXGroup;
 			children = (
-				4024811A1D0AC4AA003C09E2 /* RadarViewController.h */,
-				4024811B1D0AC4AA003C09E2 /* RadarViewController.m */,
-				4009D07B1D170B8C0081ED1C /* RadarUserTableViewController.h */,
-				4009D07C1D170B8C0081ED1C /* RadarUserTableViewController.m */,
 				4009D07E1D170BC60081ED1C /* RadarUserTableViewCell.h */,
 				4009D07F1D170BC60081ED1C /* RadarUserTableViewCell.m */,
+				4009D07B1D170B8C0081ED1C /* RadarUserTableViewController.h */,
+				4009D07C1D170B8C0081ED1C /* RadarUserTableViewController.m */,
+				4024811A1D0AC4AA003C09E2 /* RadarViewController.h */,
+				4024811B1D0AC4AA003C09E2 /* RadarViewController.m */,
 			);
-			name = Radar;
+			path = Radar;
 			sourceTree = "<group>";
 		};
 		4020C8CB1D2D39510081CBE2 /* Explore */ = {
@@ -559,7 +559,7 @@
 				4020C8F21D2E9E810081CBE2 /* ExploreWaterFallViewController.h */,
 				4020C8F31D2E9E810081CBE2 /* ExploreWaterFallViewController.m */,
 			);
-			name = Explore;
+			path = Explore;
 			sourceTree = "<group>";
 		};
 		4020C8CC1D2D396A0081CBE2 /* Arena */ = {
@@ -568,99 +568,98 @@
 				4009D08F1D1B25B50081ED1C /* ArenaViewController.h */,
 				4009D0901D1B25B50081ED1C /* ArenaViewController.m */,
 			);
-			name = Arena;
+			path = Arena;
 			sourceTree = "<group>";
 		};
 		4020C8DC1D2E67370081CBE2 /* Special Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				4020C8DD1D2E67790081CBE2 /* RFQuiltLayout */,
 				4020C8E41D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.h */,
 				4020C8E51D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m */,
 				4020C8E61D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.h */,
 				4020C8E71D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m */,
 				4020C8E81D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.h */,
 				4020C8E91D2E99090081CBE2 /* CHTCollectionViewWaterfallHeader.m */,
-				4020C8DD1D2E67790081CBE2 /* RFQuiltLayout */,
 			);
-			name = "Special Layouts";
+			path = "Special Layouts";
 			sourceTree = "<group>";
 		};
 		4020C8DD1D2E67790081CBE2 /* RFQuiltLayout */ = {
 			isa = PBXGroup;
 			children = (
-				4020C8DE1D2E67790081CBE2 /* Info.plist */,
-				4020C8DF1D2E67790081CBE2 /* RFQuiltLayout.h */,
-				4020C8E01D2E67790081CBE2 /* RFQuiltLayout.m */,
+				4020C8DE1D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/Info.plist */,
+				4020C8DF1D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/RFQuiltLayout.h */,
+				4020C8E01D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/RFQuiltLayout.m */,
 			);
-			name = RFQuiltLayout;
-			path = "../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout";
+			path = RFQuiltLayout;
 			sourceTree = "<group>";
 		};
 		4020C8F51D315FCB0081CBE2 /* Data Processing */ = {
 			isa = PBXGroup;
 			children = (
-				4024812C1D0C63E6003C09E2 /* OwnUserData.h */,
-				4024812D1D0C63E6003C09E2 /* OwnUserData.m */,
-				4009D0861D1AC9DF0081ED1C /* OtherUserData.h */,
-				4009D0871D1AC9DF0081ED1C /* OtherUserData.m */,
-				402481011D081B22003C09E2 /* BubbleContent.m */,
 				402481001D081B22003C09E2 /* BubbleContent.h */,
+				402481011D081B22003C09E2 /* BubbleContent.m */,
 				402481031D081C7B003C09E2 /* GeoManager.h */,
 				402481041D081C7B003C09E2 /* GeoManager.m */,
+				4009D0861D1AC9DF0081ED1C /* OtherUserData.h */,
+				4009D0871D1AC9DF0081ED1C /* OtherUserData.m */,
+				4024812C1D0C63E6003C09E2 /* OwnUserData.h */,
+				4024812D1D0C63E6003C09E2 /* OwnUserData.m */,
 			);
-			name = "Data Processing";
+			path = "Data Processing";
 			sourceTree = "<group>";
 		};
 		4020C8F61D31667E0081CBE2 /* Notifications List */ = {
 			isa = PBXGroup;
 			children = (
-				4020C8A41D2AB2190081CBE2 /* NotificationsTableViewController.h */,
-				4020C8A51D2AB2190081CBE2 /* NotificationsTableViewController.m */,
 				4020C8A71D2AB23A0081CBE2 /* NotificationsTableViewCell.h */,
 				4020C8A81D2AB23A0081CBE2 /* NotificationsTableViewCell.m */,
+				4020C8A41D2AB2190081CBE2 /* NotificationsTableViewController.h */,
+				4020C8A51D2AB2190081CBE2 /* NotificationsTableViewController.m */,
 				4020C8AA1D2AB48F0081CBE2 /* NotificationsViewController.h */,
 				4020C8AB1D2AB48F0081CBE2 /* NotificationsViewController.m */,
 			);
-			name = "Notifications List";
+			path = "Notifications List";
 			sourceTree = "<group>";
 		};
 		4020C8F71D3166A90081CBE2 /* Chats List */ = {
 			isa = PBXGroup;
 			children = (
+				4020C8B31D2ABC830081CBE2 /* ChatNotificationTableViewCell.h */,
+				4020C8B41D2ABC830081CBE2 /* ChatNotificationTableViewCell.m */,
 				4020C8AD1D2ABB190081CBE2 /* ChatsOverviewViewController.h */,
 				4020C8AE1D2ABB190081CBE2 /* ChatsOverviewViewController.m */,
 				4020C8B01D2ABB600081CBE2 /* ChatsTableViewController.h */,
 				4020C8B11D2ABB600081CBE2 /* ChatsTableViewController.m */,
-				4020C8B31D2ABC830081CBE2 /* ChatNotificationTableViewCell.h */,
-				4020C8B41D2ABC830081CBE2 /* ChatNotificationTableViewCell.m */,
 			);
-			name = "Chats List";
+			path = "Chats List";
 			sourceTree = "<group>";
 		};
 		4020C8F81D3166CA0081CBE2 /* Follower List */ = {
 			isa = PBXGroup;
 			children = (
-				4020C8B61D2BD55F0081CBE2 /* FollowerViewController.h */,
-				4020C8B71D2BD55F0081CBE2 /* FollowerViewController.m */,
-				4020C8B91D2BD5E70081CBE2 /* FollowerTableViewController.h */,
-				4020C8BA1D2BD5E70081CBE2 /* FollowerTableViewController.m */,
 				4020C8BC1D2BD5FA0081CBE2 /* FollowerTableViewCell.h */,
 				4020C8BD1D2BD5FA0081CBE2 /* FollowerTableViewCell.m */,
+				4020C8B91D2BD5E70081CBE2 /* FollowerTableViewController.h */,
+				4020C8BA1D2BD5E70081CBE2 /* FollowerTableViewController.m */,
+				4020C8B61D2BD55F0081CBE2 /* FollowerViewController.h */,
+				4020C8B71D2BD55F0081CBE2 /* FollowerViewController.m */,
 			);
-			name = "Follower List";
+			path = "Follower List";
 			sourceTree = "<group>";
 		};
 		4020C8FA1D3167620081CBE2 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				4020C8991D2971940081CBE2 /* ChatViewController.h */,
-				4020C89A1D2971940081CBE2 /* ChatViewController.m */,
-				4020C89C1D29AE530081CBE2 /* ChatTableViewController.h */,
-				4020C89D1D29AE530081CBE2 /* ChatTableViewController.m */,
 				4020C89F1D29AF030081CBE2 /* ChatTableViewCell.h */,
 				4020C8A01D29AF030081CBE2 /* ChatTableViewCell.m */,
+				4020C89C1D29AE530081CBE2 /* ChatTableViewController.h */,
+				4020C89D1D29AE530081CBE2 /* ChatTableViewController.m */,
+				4020C8991D2971940081CBE2 /* ChatViewController.h */,
+				4020C89A1D2971940081CBE2 /* ChatViewController.m */,
 			);
-			name = Chat;
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		4020C8FB1D31679A0081CBE2 /* Profile */ = {
@@ -669,7 +668,7 @@
 				402481271D0B0315003C09E2 /* ProfileViewController.h */,
 				402481281D0B0315003C09E2 /* ProfileViewController.m */,
 			);
-			name = Profile;
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		4020C8FC1D31A5A40081CBE2 /* Image Processing */ = {
@@ -678,38 +677,38 @@
 				4009D0711D16E4DC0081ED1C /* Filters.h */,
 				4009D0721D16E4DC0081ED1C /* Filters.m */,
 			);
-			name = "Image Processing";
+			path = "Image Processing";
 			sourceTree = "<group>";
 		};
 		4020C8FE1D3248C30081CBE2 /* Camera Images */ = {
 			isa = PBXGroup;
 			children = (
 				4009D0451D140D420081ED1C /* CAMERA ACTIVE AREA.png */,
-				4009D06B1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png */,
 				4009D0471D140E2B0081ED1C /* CAMERA-CIRCLE GREY.png */,
+				4009D06B1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png */,
 				4009D05B1D157A510081ED1C /* ROTATE CAMERA BUTTON.png */,
 			);
-			name = "Camera Images";
+			path = "Camera Images";
 			sourceTree = "<group>";
 		};
 		4020C8FF1D3248EE0081CBE2 /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
 				4009D06D1D16C03B0081ED1C /* FACEBOOK ICON.png */,
-				4009D06F1D16C0470081ED1C /* FACEBOOK SELECTED.png */,
 				402481481D0CABCB003C09E2 /* FACEBOOK LOGIN.png */,
+				4009D06F1D16C0470081ED1C /* FACEBOOK SELECTED.png */,
 			);
-			name = Facebook;
+			path = Facebook;
 			sourceTree = "<group>";
 		};
 		4020C9001D3249040081CBE2 /* Dummie Images */ = {
 			isa = PBXGroup;
 			children = (
-				402480FC1D06F23A003C09E2 /* boys girls.jpg */,
 				4009D08B1D1B25480081ED1C /* GYMDER ARENA for dummie.jpg */,
 				4009D08D1D1B255C0081ED1C /* GYMDER EXPLORE for Dummie.jpg */,
+				402480FC1D06F23A003C09E2 /* boys girls.jpg */,
 			);
-			name = "Dummie Images";
+			path = "Dummie Images";
 			sourceTree = "<group>";
 		};
 		4020C9011D32491E0081CBE2 /* Launch */ = {
@@ -717,7 +716,7 @@
 			children = (
 				4009D0791D1704380081ED1C /* GYMDER START SCREEN.jpg */,
 			);
-			name = Launch;
+			path = Launch;
 			sourceTree = "<group>";
 		};
 		4020C9021D3249730081CBE2 /* Main Background */ = {
@@ -725,27 +724,27 @@
 			children = (
 				4024820D1D0D998A003C09E2 /* BACKGROUND.jpg */,
 			);
-			name = "Main Background";
+			path = "Main Background";
 			sourceTree = "<group>";
 		};
 		4020C9031D324A2E0081CBE2 /* Universal Icons */ = {
 			isa = PBXGroup;
 			children = (
-				4020C88D1D27CB490081CBE2 /* POW WHITE ARENA.png */,
-				4009D5781D253C22007D8B56 /* POW BUTTON WHITE.png */,
-				4009D0411D1306DF0081ED1C /* LOCATION NEEDLE.png */,
 				4009D0591D156DEF0081ED1C /* LOCATION NEEDLE BIG.png */,
+				4009D0411D1306DF0081ED1C /* LOCATION NEEDLE.png */,
+				4009D5781D253C22007D8B56 /* POW BUTTON WHITE.png */,
+				4020C88D1D27CB490081CBE2 /* POW WHITE ARENA.png */,
 			);
-			name = "Universal Icons";
+			path = "Universal Icons";
 			sourceTree = "<group>";
 		};
 		4020C9041D324A4C0081CBE2 /* Workout Settings */ = {
 			isa = PBXGroup;
 			children = (
-				4009D5601D22CB18007D8B56 /* WORKOUTS TICK.png */,
 				4009D5641D231BFB007D8B56 /* WORKOUTS TICK item.png */,
+				4009D5601D22CB18007D8B56 /* WORKOUTS TICK.png */,
 			);
-			name = "Workout Settings";
+			path = "Workout Settings";
 			sourceTree = "<group>";
 		};
 		4020C9051D324A6C0081CBE2 /* Navigation Icons */ = {
@@ -753,40 +752,40 @@
 			children = (
 				4024812A1D0C52A7003C09E2 /* BACK BUTTON GREY.png */,
 			);
-			name = "Navigation Icons";
+			path = "Navigation Icons";
 			sourceTree = "<group>";
 		};
 		4020C9061D325C0D0081CBE2 /* Currently not used */ = {
 			isa = PBXGroup;
 			children = (
-				4020C8911D292F100081CBE2 /* ExploreCollectionViewController.h */,
-				4020C8921D292F100081CBE2 /* ExploreCollectionViewController.m */,
 				4020C8941D292F6C0081CBE2 /* ExploreCollectionViewCell.h */,
 				4020C8951D292F6C0081CBE2 /* ExploreCollectionViewCell.m */,
-				4020C8CD1D2E566F0081CBE2 /* ExploreTableViewController.h */,
-				4020C8CE1D2E566F0081CBE2 /* ExploreTableViewController.m */,
-				4020C8D31D2E56D50081CBE2 /* ExploreTableViewCellNormal.h */,
-				4020C8D41D2E56D50081CBE2 /* ExploreTableViewCellNormal.m */,
+				4020C8911D292F100081CBE2 /* ExploreCollectionViewController.h */,
+				4020C8921D292F100081CBE2 /* ExploreCollectionViewController.m */,
+				4020C8EF1D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.h */,
+				4020C8F01D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m */,
 				4020C8D61D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.h */,
 				4020C8D71D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m */,
 				4020C8D91D2E56F60081CBE2 /* ExploreTableViewCellBigRight.h */,
 				4020C8DA1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m */,
-				4020C8EF1D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.h */,
-				4020C8F01D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m */,
+				4020C8D31D2E56D50081CBE2 /* ExploreTableViewCellNormal.h */,
+				4020C8D41D2E56D50081CBE2 /* ExploreTableViewCellNormal.m */,
+				4020C8CD1D2E566F0081CBE2 /* ExploreTableViewController.h */,
+				4020C8CE1D2E566F0081CBE2 /* ExploreTableViewController.m */,
 			);
-			name = "Currently not used";
+			path = "Currently not used";
 			sourceTree = "<group>";
 		};
 		402480B41D049B65003C09E2 = {
 			isa = PBXGroup;
 			children = (
-				402480F31D049B7E003C09E2 /* podfile */,
+				D7A8C9116D9BEAEEF874E18B /* Frameworks */,
 				402480BF1D049B65003C09E2 /* GYMDER */,
 				402480D91D049B65003C09E2 /* GYMDERTests */,
 				402480E41D049B65003C09E2 /* GYMDERUITests */,
-				402480BE1D049B65003C09E2 /* Products */,
 				E92A0BB8AF40B3A44AA0F9D3 /* Pods */,
-				D7A8C9116D9BEAEEF874E18B /* Frameworks */,
+				402480BE1D049B65003C09E2 /* Products */,
+				402480F31D049B7E003C09E2 /* podfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -803,28 +802,28 @@
 		402480BF1D049B65003C09E2 /* GYMDER */ = {
 			isa = PBXGroup;
 			children = (
-				4020C9061D325C0D0081CBE2 /* Currently not used */,
-				402480FA1D06F207003C09E2 /* Material */,
-				4020C8DC1D2E67370081CBE2 /* Special Layouts */,
-				4020C8C11D2D33400081CBE2 /* Network */,
-				4009D04E1D155A550081ED1C /* Color References */,
-				4024811D1D0AC52B003C09E2 /* Views (for Radar) */,
 				402481161D0AC494003C09E2 /* AngleGradient */,
+				4009D04E1D155A550081ED1C /* Color References */,
 				402481151D0AC41C003C09E2 /* Controllers */,
+				4020C9061D325C0D0081CBE2 /* Currently not used */,
 				4020C8F51D315FCB0081CBE2 /* Data Processing */,
 				4020C8FC1D31A5A40081CBE2 /* Image Processing */,
+				402480FA1D06F207003C09E2 /* Material */,
+				4020C8C11D2D33400081CBE2 /* Network */,
+				4020C8DC1D2E67370081CBE2 /* Special Layouts */,
+				402480C01D049B65003C09E2 /* Supporting Files */,
+				4024811D1D0AC52B003C09E2 /* Views (for Radar) */,
 				402480C31D049B65003C09E2 /* AppDelegate.h */,
 				402480C41D049B65003C09E2 /* AppDelegate.m */,
+				4009D0891D1B24F70081ED1C /* ArenaExplore.storyboard */,
+				402480CC1D049B65003C09E2 /* Assets.xcassets */,
+				4009D0431D1406B50081ED1C /* Camera.storyboard */,
+				4020C8971D2970880081CBE2 /* Chat.storyboard */,
+				402480D11D049B65003C09E2 /* Info.plist */,
+				402480CE1D049B65003C09E2 /* LaunchScreen.storyboard */,
 				402480C91D049B65003C09E2 /* Main.storyboard */,
 				4020C8A21D2AB07E0081CBE2 /* Private.storyboard */,
 				4024823A1D0DD4BC003C09E2 /* SettingsStoryboard.storyboard */,
-				4009D0891D1B24F70081ED1C /* ArenaExplore.storyboard */,
-				4009D0431D1406B50081ED1C /* Camera.storyboard */,
-				4020C8971D2970880081CBE2 /* Chat.storyboard */,
-				402480CC1D049B65003C09E2 /* Assets.xcassets */,
-				402480CE1D049B65003C09E2 /* LaunchScreen.storyboard */,
-				402480D11D049B65003C09E2 /* Info.plist */,
-				402480C01D049B65003C09E2 /* Supporting Files */,
 			);
 			path = GYMDER;
 			sourceTree = "<group>";
@@ -834,7 +833,7 @@
 			children = (
 				402480C11D049B65003C09E2 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		402480D91D049B65003C09E2 /* GYMDERTests */ = {
@@ -863,25 +862,24 @@
 				4024814C1D0D7E9B003C09E2 /* GIFs */,
 				402480FB1D06F21E003C09E2 /* Images */,
 			);
-			name = Material;
-			path = ..;
+			path = Material;
 			sourceTree = "<group>";
 		};
 		402480FB1D06F21E003C09E2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				4020C9051D324A6C0081CBE2 /* Navigation Icons */,
-				4020C9041D324A4C0081CBE2 /* Workout Settings */,
-				4020C9031D324A2E0081CBE2 /* Universal Icons */,
-				4020C9021D3249730081CBE2 /* Main Background */,
-				4020C9011D32491E0081CBE2 /* Launch */,
+				4020C8FE1D3248C30081CBE2 /* Camera Images */,
 				4020C9001D3249040081CBE2 /* Dummie Images */,
 				4020C8FF1D3248EE0081CBE2 /* Facebook */,
-				4020C8FE1D3248C30081CBE2 /* Camera Images */,
+				4020C9011D32491E0081CBE2 /* Launch */,
+				4020C9021D3249730081CBE2 /* Main Background */,
+				4020C9051D324A6C0081CBE2 /* Navigation Icons */,
 				4009D0521D1567970081ED1C /* Navigation Popup Menu */,
 				402481331D0C8DF4003C09E2 /* Profile Icons */,
+				4020C9031D324A2E0081CBE2 /* Universal Icons */,
+				4020C9041D324A4C0081CBE2 /* Workout Settings */,
 			);
-			name = Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		4024810D1D0AC2CD003C09E2 /* Products */ = {
@@ -897,59 +895,57 @@
 			isa = PBXGroup;
 			children = (
 				4020C8CC1D2D396A0081CBE2 /* Arena */,
-				4020C8CB1D2D39510081CBE2 /* Explore */,
-				4020C8C91D2D38E00081CBE2 /* Radar */,
-				4020C8C51D2D37900081CBE2 /* Private */,
 				4020C8C81D2D387C0081CBE2 /* Camera */,
+				4020C8FA1D3167620081CBE2 /* Chat */,
+				4020C8CB1D2D39510081CBE2 /* Explore */,
+				4020C8C51D2D37900081CBE2 /* Private */,
 				4020C8FB1D31679A0081CBE2 /* Profile */,
 				4020C8C71D2D37B80081CBE2 /* Profile Editing */,
-				4020C8FA1D3167620081CBE2 /* Chat */,
+				4020C8C91D2D38E00081CBE2 /* Radar */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		402481161D0AC494003C09E2 /* AngleGradient */ = {
 			isa = PBXGroup;
 			children = (
-				402481171D0AC494003C09E2 /* AngleGradientLayer.h */,
-				402481181D0AC494003C09E2 /* AngleGradientLayer.m */,
+				402481171D0AC494003C09E2 /* ../../../../../Downloads/Radar-master/Radar/AngleGradient/AngleGradientLayer.h */,
+				402481181D0AC494003C09E2 /* ../../../../../Downloads/Radar-master/Radar/AngleGradient/AngleGradientLayer.m */,
 			);
-			name = AngleGradient;
-			path = "../../../../Downloads/Radar-master/Radar/AngleGradient";
+			path = AngleGradient;
 			sourceTree = "<group>";
 		};
 		4024811D1D0AC52B003C09E2 /* Views (for Radar) */ = {
 			isa = PBXGroup;
 			children = (
-				4024811E1D0AC52B003C09E2 /* Arcs.h */,
-				4024811F1D0AC52B003C09E2 /* Arcs.m */,
-				402481201D0AC52B003C09E2 /* Dot.h */,
-				402481211D0AC52B003C09E2 /* Dot.m */,
-				402481221D0AC52B003C09E2 /* Radar.h */,
-				402481231D0AC52B003C09E2 /* Radar.m */,
+				4024811E1D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Arcs.h */,
+				4024811F1D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Arcs.m */,
+				402481201D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Dot.h */,
+				402481211D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Dot.m */,
+				402481221D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Radar.h */,
+				402481231D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Radar.m */,
 			);
-			name = "Views (for Radar)";
-			path = "../../../../Downloads/Radar-master/Radar/Views";
+			path = "Views (for Radar)";
 			sourceTree = "<group>";
 		};
 		402481331D0C8DF4003C09E2 /* Profile Icons */ = {
 			isa = PBXGroup;
 			children = (
-				4024820F1D0DA4D9003C09E2 /* DOTS.png */,
 				402482101D0DA4D9003C09E2 /* CLOSE.png */,
+				4024820F1D0DA4D9003C09E2 /* DOTS.png */,
 				4009D0631D159D470081ED1C /* PROFILE CHAT GREY.png */,
-				4009D0641D159D470081ED1C /* PROFILE FOLLOW GREY.png */,
-				4009D0651D159D470081ED1C /* PROFILE POW GREY.png */,
-				4009D0691D15A4590081ED1C /* PROFILE SETTINGS.png */,
 				402482111D0DA4D9003C09E2 /* PROFILE CHAT SELECTED.png */,
-				4009D0811D1975300081ED1C /* PROFILE SETTINGS NEW.png */,
 				402482121D0DA4D9003C09E2 /* PROFILE CHAT.png */,
+				4009D0641D159D470081ED1C /* PROFILE FOLLOW GREY.png */,
 				402482131D0DA4D9003C09E2 /* PROFILE FOLLOW.png */,
 				402482141D0DA4D9003C09E2 /* PROFILE FOLLOWSELECTED.png */,
+				4009D0651D159D470081ED1C /* PROFILE POW GREY.png */,
 				402482151D0DA4D9003C09E2 /* PROFILE POW SELECTED.png */,
 				402482161D0DA4D9003C09E2 /* PROFILE POW.png */,
+				4009D0811D1975300081ED1C /* PROFILE SETTINGS NEW.png */,
+				4009D0691D15A4590081ED1C /* PROFILE SETTINGS.png */,
 			);
-			name = "Profile Icons";
+			path = "Profile Icons";
 			sourceTree = "<group>";
 		};
 		4024814C1D0D7E9B003C09E2 /* GIFs */ = {
@@ -957,81 +953,80 @@
 			children = (
 				402481AA1D0D85EF003C09E2 /* FILM PULSE */,
 			);
-			name = GIFs;
+			path = GIFs;
 			sourceTree = "<group>";
 		};
 		402481AA1D0D85EF003C09E2 /* FILM PULSE */ = {
 			isa = PBXGroup;
 			children = (
-				402481AB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png */,
-				402481AC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png */,
-				402481AD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png */,
-				402481AE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png */,
-				402481AF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png */,
-				402481B01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png */,
-				402481B11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png */,
-				402481B21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png */,
-				402481B31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png */,
-				402481B41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png */,
-				402481B51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png */,
-				402481B61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png */,
-				402481B71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png */,
-				402481B81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png */,
-				402481B91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png */,
-				402481BA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png */,
-				402481BB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png */,
-				402481BC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png */,
-				402481BD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png */,
-				402481BE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png */,
-				402481BF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png */,
-				402481C01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png */,
-				402481C11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png */,
-				402481C21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png */,
-				402481C31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png */,
-				402481C41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png */,
-				402481C51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png */,
-				402481C61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png */,
-				402481C71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png */,
-				402481C81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png */,
-				402481C91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png */,
-				402481CA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png */,
-				402481CB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png */,
-				402481CC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png */,
-				402481CD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png */,
-				402481CE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png */,
-				402481CF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png */,
-				402481D01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png */,
-				402481D11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png */,
-				402481D21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png */,
-				402481D31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png */,
-				402481D41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png */,
-				402481D51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png */,
-				402481D61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png */,
-				402481D71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png */,
-				402481D81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png */,
-				402481D91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png */,
-				402481DA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png */,
-				402481DB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png */,
+				402481AB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING00.png */,
+				402481AC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING01.png */,
+				402481AD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING02.png */,
+				402481AE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING03.png */,
+				402481AF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING04.png */,
+				402481B01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING05.png */,
+				402481B11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING06.png */,
+				402481B21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING07.png */,
+				402481B31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING08.png */,
+				402481B41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING09.png */,
+				402481B51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING10.png */,
+				402481B61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING11.png */,
+				402481B71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING12.png */,
+				402481B81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING13.png */,
+				402481B91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING14.png */,
+				402481BA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING15.png */,
+				402481BB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING16.png */,
+				402481BC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING17.png */,
+				402481BD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING18.png */,
+				402481BE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING19.png */,
+				402481BF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING20.png */,
+				402481C01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING21.png */,
+				402481C11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING22.png */,
+				402481C21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING23.png */,
+				402481C31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING24.png */,
+				402481C41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING25.png */,
+				402481C51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING26.png */,
+				402481C61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING27.png */,
+				402481C71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING28.png */,
+				402481C81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING29.png */,
+				402481C91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING30.png */,
+				402481CA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING31.png */,
+				402481CB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING32.png */,
+				402481CC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING33.png */,
+				402481CD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING34.png */,
+				402481CE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING35.png */,
+				402481CF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING36.png */,
+				402481D01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING37.png */,
+				402481D11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING38.png */,
+				402481D21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING39.png */,
+				402481D31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING40.png */,
+				402481D41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING41.png */,
+				402481D51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING42.png */,
+				402481D61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING43.png */,
+				402481D71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING44.png */,
+				402481D81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING45.png */,
+				402481D91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING46.png */,
+				402481DA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING47.png */,
+				402481DB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING48.png */,
 			);
-			name = "FILM PULSE";
-			path = "../../../Desktop/Gymder New Icons/FILM PULSE";
+			path = "FILM PULSE";
 			sourceTree = "<group>";
 		};
 		4024821F1D0DB4E8003C09E2 /* Menu Icons */ = {
 			isa = PBXGroup;
 			children = (
-				4024822C1D0DB834003C09E2 /* MENU POW ACTIVE.png */,
-				4024822D1D0DB834003C09E2 /* MENU POW.png */,
-				4024822E1D0DB834003C09E2 /* MENU PROFILE ACTIVE.png */,
-				4024822F1D0DB834003C09E2 /* MENU PROFILE.png */,
 				402482201D0DB50B003C09E2 /* MENU ARENA ACTIVE.png */,
 				402482211D0DB50B003C09E2 /* MENU ARENA.png */,
 				402482221D0DB50B003C09E2 /* MENU DISCOVER ACTIVE.png */,
 				402482231D0DB50B003C09E2 /* MENU DISCOVER.png */,
 				402482241D0DB50B003C09E2 /* MENU EXPLORE ACTIVE.png */,
 				402482251D0DB50B003C09E2 /* MENU EXPLORE.png */,
+				4024822C1D0DB834003C09E2 /* MENU POW ACTIVE.png */,
+				4024822D1D0DB834003C09E2 /* MENU POW.png */,
+				4024822E1D0DB834003C09E2 /* MENU PROFILE ACTIVE.png */,
+				4024822F1D0DB834003C09E2 /* MENU PROFILE.png */,
 			);
-			name = "Menu Icons";
+			path = "Menu Icons";
 			sourceTree = "<group>";
 		};
 		4024823F1D0DE1D1003C09E2 /* Fonts */ = {
@@ -1039,7 +1034,7 @@
 			children = (
 				402482401D0DE31F003C09E2 /* ClanOffcPro-Ultra.ttf */,
 			);
-			name = Fonts;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		D7A8C9116D9BEAEEF874E18B /* Frameworks */ = {
@@ -1192,111 +1187,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402481DD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING01.png in Resources */,
+				402481DD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING01.png in Resources */,
 				4009D5611D22CB18007D8B56 /* WORKOUTS TICK.png in Resources */,
-				402481F31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING23.png in Resources */,
+				402481F31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING23.png in Resources */,
 				4009D0671D159D470081ED1C /* PROFILE FOLLOW GREY.png in Resources */,
 				4024821B1D0DA4DA003C09E2 /* PROFILE FOLLOW.png in Resources */,
 				402480D01D049B65003C09E2 /* LaunchScreen.storyboard in Resources */,
 				4009D0761D16EBA80081ED1C /* BEAST-MASK.png in Resources */,
-				402481F91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING29.png in Resources */,
+				402481F91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING29.png in Resources */,
 				4009D5651D231BFB007D8B56 /* WORKOUTS TICK item.png in Resources */,
 				4009D5791D253C22007D8B56 /* POW BUTTON WHITE.png in Resources */,
-				402481E21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING06.png in Resources */,
-				402481DE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING02.png in Resources */,
-				402481FB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING31.png in Resources */,
-				402481E91D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING13.png in Resources */,
+				402481E21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING06.png in Resources */,
+				402481DE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING02.png in Resources */,
+				402481FB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING31.png in Resources */,
+				402481E91D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING13.png in Resources */,
 				4009D05A1D156DEF0081ED1C /* LOCATION NEEDLE BIG.png in Resources */,
-				402481E01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING04.png in Resources */,
-				402481FF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING35.png in Resources */,
+				402481E01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING04.png in Resources */,
+				402481FF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING35.png in Resources */,
 				4009D06A1D15A4590081ED1C /* PROFILE SETTINGS.png in Resources */,
 				4024821A1D0DA4DA003C09E2 /* PROFILE CHAT.png in Resources */,
-				4020C8E11D2E67790081CBE2 /* Info.plist in Resources */,
+				4020C8E11D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/Info.plist in Resources */,
 				4024821D1D0DA4DA003C09E2 /* PROFILE POW SELECTED.png in Resources */,
-				402482081D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING44.png in Resources */,
+				402482081D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING44.png in Resources */,
 				4009D0661D159D470081ED1C /* PROFILE CHAT GREY.png in Resources */,
-				402481F51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING25.png in Resources */,
-				4024820B1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING47.png in Resources */,
-				402481EB1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING15.png in Resources */,
-				402481F81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING28.png in Resources */,
+				402481F51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING25.png in Resources */,
+				4024820B1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING47.png in Resources */,
+				402481EB1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING15.png in Resources */,
+				402481F81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING28.png in Resources */,
 				4020C8981D2970880081CBE2 /* Chat.storyboard in Resources */,
-				4024820A1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING46.png in Resources */,
+				4024820A1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING46.png in Resources */,
 				402481491D0CABCB003C09E2 /* FACEBOOK LOGIN.png in Resources */,
-				402481FC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING32.png in Resources */,
+				402481FC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING32.png in Resources */,
 				4020C88E1D27CB490081CBE2 /* POW WHITE ARENA.png in Resources */,
 				402482261D0DB50C003C09E2 /* MENU ARENA ACTIVE.png in Resources */,
-				402482041D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING40.png in Resources */,
+				402482041D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING40.png in Resources */,
 				4009D07A1D1704380081ED1C /* GYMDER START SCREEN.jpg in Resources */,
 				4009D0441D1406B50081ED1C /* Camera.storyboard in Resources */,
 				4009D0681D159D470081ED1C /* PROFILE POW GREY.png in Resources */,
 				4024821E1D0DA4DA003C09E2 /* PROFILE POW.png in Resources */,
 				402482411D0DE31F003C09E2 /* ClanOffcPro-Ultra.ttf in Resources */,
-				402481E31D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING07.png in Resources */,
-				402481DF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING03.png in Resources */,
-				402482051D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING41.png in Resources */,
-				402481F71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING27.png in Resources */,
+				402481E31D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING07.png in Resources */,
+				402481DF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING03.png in Resources */,
+				402482051D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING41.png in Resources */,
+				402481F71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING27.png in Resources */,
 				4024823B1D0DD4BC003C09E2 /* SettingsStoryboard.storyboard in Resources */,
-				402481E51D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING09.png in Resources */,
-				402482011D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING37.png in Resources */,
-				402481F41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING24.png in Resources */,
-				402482021D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING38.png in Resources */,
+				402481E51D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING09.png in Resources */,
+				402482011D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING37.png in Resources */,
+				402481F41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING24.png in Resources */,
+				402482021D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING38.png in Resources */,
 				402482181D0DA4DA003C09E2 /* CLOSE.png in Resources */,
-				402481ED1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING17.png in Resources */,
-				402482091D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING45.png in Resources */,
+				402481ED1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING17.png in Resources */,
+				402482091D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING45.png in Resources */,
 				4024822B1D0DB50C003C09E2 /* MENU EXPLORE.png in Resources */,
-				402481F21D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING22.png in Resources */,
+				402481F21D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING22.png in Resources */,
 				402482171D0DA4DA003C09E2 /* DOTS.png in Resources */,
-				402481FA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING30.png in Resources */,
-				402481F61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING26.png in Resources */,
-				402481FE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING34.png in Resources */,
-				402481EF1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING19.png in Resources */,
+				402481FA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING30.png in Resources */,
+				402481F61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING26.png in Resources */,
+				402481FE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING34.png in Resources */,
+				402481EF1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING19.png in Resources */,
 				402482271D0DB50C003C09E2 /* MENU ARENA.png in Resources */,
 				4024820E1D0D998A003C09E2 /* BACKGROUND.jpg in Resources */,
 				402480CD1D049B65003C09E2 /* Assets.xcassets in Resources */,
 				4009D08C1D1B25480081ED1C /* GYMDER ARENA for dummie.jpg in Resources */,
-				402481EE1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING18.png in Resources */,
+				402481EE1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING18.png in Resources */,
 				4024812B1D0C52A7003C09E2 /* BACK BUTTON GREY.png in Resources */,
 				4009D0701D16C0470081ED1C /* FACEBOOK SELECTED.png in Resources */,
-				402481E61D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING10.png in Resources */,
+				402481E61D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING10.png in Resources */,
 				402482281D0DB50C003C09E2 /* MENU DISCOVER ACTIVE.png in Resources */,
 				4009D08A1D1B24F70081ED1C /* ArenaExplore.storyboard in Resources */,
-				402481F11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING21.png in Resources */,
+				402481F11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING21.png in Resources */,
 				4009D0421D1306DF0081ED1C /* LOCATION NEEDLE.png in Resources */,
 				4024821C1D0DA4DA003C09E2 /* PROFILE FOLLOWSELECTED.png in Resources */,
 				402480F41D049B7E003C09E2 /* podfile in Resources */,
-				402481E11D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING05.png in Resources */,
+				402481E11D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING05.png in Resources */,
 				4024822A1D0DB50C003C09E2 /* MENU EXPLORE ACTIVE.png in Resources */,
 				4009D06E1D16C03B0081ED1C /* FACEBOOK ICON.png in Resources */,
-				402482001D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING36.png in Resources */,
+				402482001D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING36.png in Resources */,
 				402482291D0DB50C003C09E2 /* MENU DISCOVER.png in Resources */,
-				402481E81D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING12.png in Resources */,
-				402481FD1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING33.png in Resources */,
-				402482031D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING39.png in Resources */,
+				402481E81D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING12.png in Resources */,
+				402481FD1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING33.png in Resources */,
+				402482031D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING39.png in Resources */,
 				4009D0821D1975300081ED1C /* PROFILE SETTINGS NEW.png in Resources */,
-				402482061D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING42.png in Resources */,
-				402481E71D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING11.png in Resources */,
+				402482061D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING42.png in Resources */,
+				402481E71D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING11.png in Resources */,
 				4009D0481D140E2B0081ED1C /* CAMERA-CIRCLE GREY.png in Resources */,
 				4009D0461D140D420081ED1C /* CAMERA ACTIVE AREA.png in Resources */,
 				4009D06C1D15E22F0081ED1C /* CAMERA-CIRCLE WHITE.png in Resources */,
-				402481E41D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING08.png in Resources */,
+				402481E41D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING08.png in Resources */,
 				4009D05C1D157A510081ED1C /* ROTATE CAMERA BUTTON.png in Resources */,
-				402482071D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING43.png in Resources */,
+				402482071D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING43.png in Resources */,
 				402480CB1D049B65003C09E2 /* Main.storyboard in Resources */,
-				402481EA1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING14.png in Resources */,
+				402481EA1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING14.png in Resources */,
 				4020C8A31D2AB07E0081CBE2 /* Private.storyboard in Resources */,
 				4009D0781D16EBDD0081ED1C /* ANGEL MASK.png in Resources */,
-				402481F01D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING20.png in Resources */,
+				402481F01D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING20.png in Resources */,
 				402482331D0DB834003C09E2 /* MENU PROFILE.png in Resources */,
 				402482321D0DB834003C09E2 /* MENU PROFILE ACTIVE.png in Resources */,
-				4024820C1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING48.png in Resources */,
+				4024820C1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING48.png in Resources */,
 				4009D0541D1567AA0081ED1C /* MENU BUTTON.png in Resources */,
 				402482311D0DB834003C09E2 /* MENU POW.png in Resources */,
 				4009D08E1D1B255C0081ED1C /* GYMDER EXPLORE for Dummie.jpg in Resources */,
 				402482301D0DB834003C09E2 /* MENU POW ACTIVE.png in Resources */,
 				402480FD1D06F23A003C09E2 /* boys girls.jpg in Resources */,
 				402482191D0DA4DA003C09E2 /* PROFILE CHAT SELECTED.png in Resources */,
-				402481EC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING16.png in Resources */,
-				402481DC1D0D85EF003C09E2 /* GYMDER DISCOVER FILM_BRIEFING00.png in Resources */,
+				402481EC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING16.png in Resources */,
+				402481DC1D0D85EF003C09E2 /* ../../../../../../../Desktop/Gymder New Icons/FILM PULSE/GYMDER DISCOVER FILM_BRIEFING00.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1386,7 +1381,7 @@
 				4020C8CF1D2E566F0081CBE2 /* ExploreTableViewController.m in Sources */,
 				4009D56B1D23D6CD007D8B56 /* NumberEditViewController.m in Sources */,
 				402480C51D049B65003C09E2 /* AppDelegate.m in Sources */,
-				402481251D0AC52B003C09E2 /* Dot.m in Sources */,
+				402481251D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Dot.m in Sources */,
 				4009D0801D170BC60081ED1C /* RadarUserTableViewCell.m in Sources */,
 				4020C8EB1D2E99090081CBE2 /* CHTCollectionViewWaterfallFooter.m in Sources */,
 				4020C8D81D2E56E70081CBE2 /* ExploreTableViewCellBigLeft.m in Sources */,
@@ -1395,7 +1390,7 @@
 				4020C8F11D2E99540081CBE2 /* ExploreCollectionViewControllerWaterfall.m in Sources */,
 				4009D04B1D140F130081ED1C /* ShootViewController.m in Sources */,
 				4020C8B81D2BD55F0081CBE2 /* FollowerViewController.m in Sources */,
-				402481261D0AC52B003C09E2 /* Radar.m in Sources */,
+				402481261D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Radar.m in Sources */,
 				4020C89E1D29AE530081CBE2 /* ChatTableViewController.m in Sources */,
 				4009D05F1D157CD40081ED1C /* PhotofilterViewController.m in Sources */,
 				4020C8EA1D2E99090081CBE2 /* CHTCollectionViewWaterfallCell.m in Sources */,
@@ -1415,10 +1410,10 @@
 				4020C8B51D2ABC830081CBE2 /* ChatNotificationTableViewCell.m in Sources */,
 				4009D0731D16E4DC0081ED1C /* Filters.m in Sources */,
 				4009D56E1D24028B007D8B56 /* GenderViewController.m in Sources */,
-				402481191D0AC495003C09E2 /* AngleGradientLayer.m in Sources */,
+				402481191D0AC495003C09E2 /* ../../../../../Downloads/Radar-master/Radar/AngleGradient/AngleGradientLayer.m in Sources */,
 				4009D0851D197A490081ED1C /* EditProfileViewController.m in Sources */,
-				4020C8E21D2E67790081CBE2 /* RFQuiltLayout.m in Sources */,
-				402481241D0AC52B003C09E2 /* Arcs.m in Sources */,
+				4020C8E21D2E67790081CBE2 /* ../../../../../../Downloads/RFQuiltLayout-master/RFQuiltLayout/RFQuiltLayout.m in Sources */,
+				402481241D0AC52B003C09E2 /* ../../../../../Downloads/Radar-master/Radar/Views/Arcs.m in Sources */,
 				4020C8D51D2E56D50081CBE2 /* ExploreTableViewCellNormal.m in Sources */,
 				4024811C1D0AC4AA003C09E2 /* RadarViewController.m in Sources */,
 				4020C8DB1D2E56F60081CBE2 /* ExploreTableViewCellBigRight.m in Sources */,
@@ -1463,6 +1458,7 @@
 				402480CA1D049B65003C09E2 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		402480CE1D049B65003C09E2 /* LaunchScreen.storyboard */ = {
@@ -1471,6 +1467,7 @@
 				402480CF1D049B65003C09E2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
